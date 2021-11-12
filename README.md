@@ -72,9 +72,9 @@ The key-bindings I've used here are built around my (admittedly) wonky typing an
 
 As this .vimrc aims to be plug and play for writers interested in using Vim for their writing, I have chosen a fairly opinionated approach to what plugins (see section on Plugins for more details), what defaults (line-wrapping, relative numbers, etc.,), are necessary to begin writing on Vim immediately. This doesn't mean that this .vimrc can't be changed based on user preference; indeed Vim truly shines when you take the time to mould it for your **exact** specifications.  The .vimrc has extensive comments to enable the final user to add, remove, and modify to their heart's content. 
 
-Most of these plugins are written in VimL, as opposed to NeoVim plugins written in Lua. The general rule of thumb that I follow is: **Most plugins written for Vim work on NeoVim, but plugins written in Lua for NeoVim **will not work** on Vim.
+Most of these plugins are written in VimL, as opposed to NeoVim plugins written in Lua. The general rule of thumb that I follow is: **Most plugins written for Vim work on NeoVim**, but **plugins written in Lua for NeoVim will not work** on Vim.
 
-All plugins curated in this vimrc will be Vim-first i.e they should run perfectly fine on any any Vim install on any system as long as Vim 8.0 or greater is installed. 
+Therefore, all plugins curated in this vimrc will be Vim-first i.e they should run perfectly fine on any any Vim install on any system as long as Vim 8.0 or greater is installed. 
 
 Plugins will be organized into levels. 
 
@@ -90,20 +90,20 @@ Plugins will be organized into levels.
 
 **GOAL**: Make Vim the *Writing Environment* of your dreams. From initial idea to final output, nothing should be beyond the reach of this final version of Vim.
 
-#### CAN I CONTRIBUTE?
+## CAN I CONTRIBUTE?
 
 Please, and thank you. 
 
 Contributions are encouraged. Feel free to make a pull request with modifications. If you want to contribute at a deeper level - maybe even forking NeoVim for writing outright - do reach out to me. I will be happy to collaborate and learn from the community. 
 
-## TODO: 
+#### TODO: 
 
 - Demo []
 - Windows Testing []
 - Tutorials []
 - Detailed documentation
+- Screenshots []
 
-Insert gif or link to demo
 
 
 ## Authors
