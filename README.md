@@ -60,20 +60,35 @@ All plugins curated in this vimrc will be Vim-first i.e they should run perfectl
 This .vimrc has served me well on Linux, MacOS and Android (via Termux). I've tested it on the following systems:
 
 **Linux**
-1. Ubuntu 20.04
+1. Ubuntu 20.04. Should work on Ubuntu derivatives such as pop!OS, Kubunutu, etc.,
 2. Debian 11
-3. Arch
+3. Arch. Worked on Vanilla Arch, Arco-Linux and Garuda Linux. 
 
 **MacOS High Sierra** (I have a 10 year old Mac so this is the best I can do for the time being)
 
 **Android**
 I have a OnePlus7T, running Android 11 (or OxygenOS 11.0.a.1 more precisely), with Termux. A note on Termux available on the Google Play Store: it seemingly doesn't get any updates and I can barely install any packages any more, which is why I moved to Termux version available on F-Droid. The repos are fresh, updated and have had no issues since moving. 
 
+**Windows**
+Yet to attempt testing on Windows. 
+
 #### KEY-BINDINGS
 
 The key-bindings I've used here are built around my (admittedly) wonky typing and keyboard recall. The SPACEBAR is the Leaderkey because it is the most ergonomically sound for me. If you feel otherwise, you are free to change. 
 
-## Demo
+
+#### CONTRIBUTIONS
+
+Please, and thank you. 
+
+Contributions are encouraged. Feel free to make a pull request with modifications. If you want to contribute at a deeper level - maybe even forking NeoVim for writing outright - do reach out to me. I will be happy to collaborate and learn from the community. 
+
+## TODO: 
+
+- Demo []
+- Windows Testing []
+- Tutorials []
+- Detailed documentation
 
 Insert gif or link to demo
 
@@ -86,5 +101,6 @@ Insert gif or link to demo
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 
 
