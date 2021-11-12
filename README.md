@@ -1,4 +1,4 @@
-![logo](/img/logo.jpeg)
+![logo](/img/logo.png)
 
 **A Vim/NeoVim Configuration for Writing and Writers**
 
