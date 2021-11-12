@@ -1,4 +1,4 @@
-
+[img](img/logo.jpeg)
 **A Vim/NeoVim Configuration for Writing and Writers**
 
 ## FAQ
