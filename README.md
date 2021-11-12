@@ -5,7 +5,7 @@
 
 #### WHAT THE HECK IS 'OVIWrite'?
 
-OVIWrite (as in *Oh-Vi-Write*) is an attempt to make (Neo)Vim writer friendly out of the box?
+OVIWrite (as in *Oh-Vi-Write*) is an attempt to make (Neo)Vim writer friendly out of the box.
 
 
 #### WHY?
