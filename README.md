@@ -88,6 +88,8 @@ Plugins will be organized into levels.
 
 *Level 3* plugins will turn Vim into a cutting edge production-ready writing environment that gives writers end-to-end granular control of their writing output. We will add Pandoc and Latex support, making it easier to produce beautiful documents that are a couple of key presses away. 
 
+**GOAL**: Make Vim the *Writing Environment* of your dreams. From initial idea to final output, nothing should be beyond the reach of this final version of Vim.
+
 #### CAN I CONTRIBUTE?
 
 Please, and thank you. 
