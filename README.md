@@ -1,4 +1,3 @@
-[![asciicast](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek.svg)](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek)                                           
 
 **A Vim/NeoVim Configuration for Writing and Writers**
 
@@ -14,6 +13,20 @@ OVIWrite (as in *Oh-Vi-Write*) is an attempt to make (Neo)Vim writer friendly ou
 I am a writer, not a tech person. 
 
 Coming across Vim for the first time last year was revelatory, but I'd be lying if I said the adoption process was easy. Indeed, it took me over two months to get Vim ready for my writing workflow. The result is that most writers would abandon Vim as too complex a beast. This repo is an attempt to address that potential loss of a user-group who stand to gain much from Vim.
+
+#### NO REALLY, WHY? 
+
+Vim/NeoVim is the writing *instrument* of my dreams. I am a long suffering user of the ubiquitous Word by Microsoft. While Word has served me well, and allowed me to write a novel, it was always *getting in the way of my writing*. This is why I used Windows Notepad along with MS Word - it provided a more distraction-free writing environment than Word did, even if it wasn't powerful. 
+
+What I needed was a powerful text editor that was fast, portable, extensible (i.e. around a writer's workflow or rather my writing workflow), and with support for version control. 
+
+Vim ticked all these boxes, and then some. 
+
+I presented my use-case and workflow, contrasting the tools and workflows *before* and *after* Vim at the 2021 [VimConf](https://www.youtube.com/watch?v=2ORWaIqyj7k&lc=Ugzt12hOimAtCl3H7z54AaABAg). 
+
+#### COULDN'T YOU JUST HAVE A GIT REPO FOR YOUR DOTFILES AND CALL IT A DAY?
+
+I could, but my personal .vimrc is a representation of my current work, which isn't only writing. Since I am engaged in teaching myself to code, much of my .vimrc aims to bridge my writing and coding workflows. I am assuming that most writers are interested in using Vim for writing. 
 
 
 #### APPROACH
@@ -52,6 +65,9 @@ This .vimrc has served me well on Linux, MacOS and Android (via Termux). I've te
 3. Arch
 
 **MacOS High Sierra** (I have a 10 year old Mac so this is the best I can do for the time being)
+
+**Android**
+I have a OnePlus7T, running Android 11 (or OxygenOS 11.0.a.1 more precisely), with Termux. A note on Termux available on the Google Play Store: it seemingly doesn't get any updates and I can barely install any packages any more, which is why I moved to Termux version available on F-Droid. The repos are fresh, updated and have had no issues since moving. 
 
 #### KEY-BINDINGS
 
