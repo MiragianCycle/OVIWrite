@@ -213,8 +213,6 @@ let g:UltiSnipsEditSplit="vertical"
 
 
 
-
-
 "==========================================================
 
 
@@ -338,7 +336,7 @@ endif
 " Vim settings and mappings
 " You can edit them as you wish
 
-" no vi-compatible
+" no vi-compatible. [Honestly, I don't know why this is here but all advice seemed to point towards keeping it. Highly recommend not modifying it unless you know what you are doing]
 set nocompatible
 
 " allow plugins by file type (required for plugins!)
@@ -352,24 +350,6 @@ set wrap
 set spell
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
-" Enable autocompletion from neocomplcache
-
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-
-" tabs and spaces handling
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" tab length exceptions on some file types
-autocmd FileType html setlocal shiftwidth=4 tabstop=4 softtabstop=4
-autocmd FileType htmldjango setlocal shiftwidth=4 tabstop=4 softtabstop=4
-autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4
-
 " always show status bar
 set ls=2
 
@@ -378,7 +358,7 @@ set incsearch
 " highlighted search results
 set hlsearch
 
-" syntax highlight on
+" syntax highlight on. Useful when working with markdown, org-mode and vim-wiki
 syntax on
 
 " show line numbers
@@ -435,7 +415,7 @@ if has('gui_running')
 endif
 
 " when scrolling, keep cursor 3 lines away from screen border
-set scrolloff=3
+set scrolloff=10
 
 " autocompletion of files and commands behaves like shell
 " (complete only the common part, list the options that match)
@@ -634,12 +614,8 @@ let g:airline_right_sep = '⮂'
 "let g:airline_symbols.readonly = '⭤'
 "let g:airline_symbols.linenr = '⭡'
 
-" start with Insert on:
-"au BufRead,BufNewFile * startinsert
 
 " supertab settings
 set completeopt=longest,menuone
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
-" emmet settings 
-let g:user_emmet_leader_key='\'
