@@ -78,7 +78,7 @@ All plugins curated in this vimrc will be Vim-first i.e they should run perfectl
 
 
 
-#### CONTRIBUTIONS
+#### CAN I CONTRIBUTE?
 
 Please, and thank you. 
 
