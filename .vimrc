@@ -38,9 +38,15 @@ endif
 " this needs to be here, so vim-plug knows we are declaring the plugins we
 " want to use
 call plug#begin('~/.vim/plugged')
-
-" **LEVEL 1 PLUGINS**
+"==============================================================================
+"
+"
+"
+" ** THIS IS THE BEGINNING OF LEVEL 1 PLUGINS**
+"
+"
 " This is the base level .vimrc for writers. We start with the languagetool which should be downloaded and installed from https://github.com/languagetool-org/languagetool
+
 let g:nv_search_paths = ['~/Documents' ]
 let g:languagetool_server_jar="/home/user/languagetool/languagetool-commandline-2.2._jar"
 
@@ -65,6 +71,11 @@ Plug 'thaerkh/vim-workspace'
 
 let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
+"TODO: 
+"- How to let workspace automatically select the current working directory to save the session file in
+
+
+
 "Now we make our writing environment prettier with the following plugins
 "
 Plug 'colepeters/spacemacs-theme.vim'
@@ -75,6 +86,10 @@ Plug 'chriskempson/base16-vim'
 Plug 'gruvbox-community/gruvbox'
 
 "This is Goyo, which allows for distraction free writing environment
+
+"TODO:
+"Assign keybinding to enter Goyo: Could it be <Leader> and G i.e \ + g in Normal mode
+
 
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
@@ -103,9 +118,11 @@ let g:limelight_eop = '\ze\n^\s'
 let g:limelight_priority = -1
 
 
-"This is the end of the LEVEL 1 plugins
+"THIS IS THE END OF THE LEVEL 1 PLUGINS
 "
 "============================================================================================
+"
+"THIS IS THE BEGINNING OF LEVEL 3 PLUGINS
 "
 "This is for Latex support
 Plug 'lervag/vimtex'
@@ -123,7 +140,6 @@ Plug 'thaerkh/vim-workspace'
 "Related to above, the following code saves all session files in a single directory outside your
 "workspace
 
-let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
 "You motherfucking compete me 
 " Track the engine.
@@ -151,33 +167,6 @@ let g:UltiSnipsEditSplit="vertical"
 
 
 
-"This is for Goyo Integration
-
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
-" Color name (:help cterm-colors) or ANSI code
-let g:limelight_conceal_ctermfg = 'gray'
-let g:limelight_conceal_ctermfg = 240
-
-" Color name (:help gui-colors) or RGB color
-let g:limelight_conceal_guifg = 'DarkGray'
-let g:limelight_conceal_guifg = '#777777'
-
-" Default: 0.5
-let g:limelight_default_coefficient = 0.7
-
-" Number of preceding/following paragraphs to include (default: 0)
-let g:limelight_paragraph_span = 1
-
-" Beginning/end of paragraph
-"   When there's no empty line between the paragraphs
-"   and each paragraph starts with indentation
-let g:limelight_bop = '^\s'
-let g:limelight_eop = '\ze\n^\s'
-
-" Highlighting priority (default: 10)
-"   Set it to -1 not to overrule hlsearch
-let g:limelight_priority = -1
 
 
 
@@ -191,12 +180,7 @@ let g:limelight_priority = -1
 
 
 
-
-
-
-
-
-
+"==========================================================
 
 
 " This section is to ensure that there is no conflict between vim and Nvim 
@@ -209,6 +193,8 @@ else
   " or do soemething like:
   " set viminfo+=n~/.shada
 endif
+
+"==========================================================
 
 
 
