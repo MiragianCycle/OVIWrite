@@ -1,9 +1,4 @@
-   _____     _______        __    _ _       
-  / _ \ \   / /_ _\ \      / / __(_) |_ ___ 
- | | | \ \ / / | | \ \ /\ / / '__| | __/ _ \
- | |_| |\ V /  | |  \ V  V /| |  | | ||  __/
-  \___/  \_/  |___|  \_/\_/ |_|  |_|\__\___|
-                                            
+ [![asciicast](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek.svg)](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek)                                          
 **A Vim/NeoVim Configuration for Writing and Writers**
 
 ## FAQ
