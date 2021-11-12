@@ -1,4 +1,5 @@
- [![asciicast](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek.svg)](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek)                                          
+[![asciicast](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek.svg)](https://asciinema.org/a/QJpgvqzIG3ltZI2posl0z36ek)                                           
+
 **A Vim/NeoVim Configuration for Writing and Writers**
 
 ## FAQ
