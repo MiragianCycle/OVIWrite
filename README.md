@@ -76,7 +76,17 @@ Most of these plugins are written in VimL, as opposed to NeoVim plugins written 
 
 All plugins curated in this vimrc will be Vim-first i.e they should run perfectly fine on any any Vim install on any system as long as Vim 8.0 or greater is installed. 
 
+Plugins will be organized into levels. 
 
+*Level 1* is what I would consider the bare minimum for writing and writers: spelling support, distraction-free writing, dictionary and thesaurus functionality, and maybe a Grammerly-like function that suggests changes to a given text. 
+
+**GOAL**: Make Vim the fastest, smartest, most portable writing scratchpad.
+
+*Level 2* plugins will turn Vim into a note-taking machine. At this point, you can conceivably use Vim as a note-taking tool in lectures, as I do.  We will combine markdown, org-mode and vim-wiki to give users three distinct and incredibly powerful tools to take down better, more effective notes.
+
+**GOAL**: Make Vim the fastest, smartest, most portable note-taking environment.
+
+*Level 3* plugins will turn Vim into a cutting edge production-ready writing environment that gives writers end-to-end granular control of their writing output. We will add Pandoc and Latex support, making it easier to produce beautiful documents that are a couple of key presses away. 
 
 #### CAN I CONTRIBUTE?
 
