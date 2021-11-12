@@ -85,12 +85,13 @@ Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'gruvbox-community/gruvbox'
 
-"This is Goyo, which allows for distraction free writing environment
+This is Goyo, which allows for distraction free writing environment
 
 "TODO:
 "Assign keybinding to enter Goyo: Could it be <Leader> and G i.e \ + g in Normal mode
 
-
+"Explanation of below Goyo config: Goyo works best with Limelight, which serves to give a spotlight effect on the text that you are working on (i.e. where your cursor is in the context of a block of text). This modification ensures that when you go into Goyo, Limelight is automatically turned on as well. It further details *how* the spotlight will work. I love how this looks when I am writing but it maynot be for everyone. In which case, you can comment it out.
+"
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 " Color name (:help cterm-colors) or ANSI code
@@ -121,6 +122,40 @@ let g:limelight_priority = -1
 "THIS IS THE END OF THE LEVEL 1 PLUGINS
 "
 "============================================================================================
+"
+"
+"THIS IS THE BEGINNING OF THE LEVEL 2 PLUGINS
+"
+" Better file browser
+Plug 'scrooloose/nerdtree'
+" Code commenter
+Plug 'scrooloose/nerdcommenter'
+" Class/module browser
+Plug 'majutsushi/tagbar'
+" Code and files fuzzy finder
+Plug 'ctrlpvim/ctrlp.vim'
+" Extension to ctrlp, for fuzzy command finder
+Plug 'fisadev/vim-ctrlp-cmdpalette'
+"Git Integration
+Plug 'motemen/git-vim'
+" Tab list panel
+Plug 'kien/tabman.vim'
+" Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+" Terminal Vim with 256 colors colorscheme
+Plug 'fisadev/fisa-vim-colorscheme'
+" Search results counter
+Plug 'vim-scripts/IndexedSearch'
+" XML/HTML tags navigation
+" Yank history navigation
+Plug 'vim-scripts/YankRing.vim'
+"
+"THIS IS THE END OF THE LEVEL 2 PLUGINS
+
+
+"=======================================================================
+
 "
 "THIS IS THE BEGINNING OF LEVEL 3 PLUGINS
 "
