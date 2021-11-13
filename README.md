@@ -112,7 +112,7 @@ Contributions are encouraged. Feel free to make a pull request with modification
 ## Authors
 
 - [@MiragianCycle](https://www.github.com/MiragianCycle), Theena Kumaragurunathan
-
+- [@mhegreberg](https://github.com/mhegreberg), Mark Hegreberg
 
 ## License
 
