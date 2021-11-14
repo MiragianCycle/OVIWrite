@@ -43,8 +43,8 @@ The assumption here is that you, a writer, have already downloaded and installed
 
 If both of the above cases are true, then all you need to do is to download the vimrc in this repo and paste it into the appropriate file in the appropriate location based on your system. Default destinations for .vimrcs:
 
-**MacOS and Unix**:        $HOME/.vimrc or $HOME/.vim/vimrc
-**MS-Windows**  $HOME/_vimrc, $HOME/vimfiles/vimrc or $VIM/_vimrc
+- **MacOS, Termux, and Unix**:        $HOME/.vimrc or $HOME/.vim/vimrc
+- **MS-Windows**  $HOME/_vimrc, $HOME/vimfiles/vimrc or $VIM/_vimrc
 
 
 # A NOTE ON PACKAGE MANAGERS
@@ -52,8 +52,6 @@ If both of the above cases are true, then all you need to do is to download the 
 I primarily use Vim-Plug to manage Plugins within Vim. Mostly because I've found it to be the easiest. The conventions used here will be for Vim-Plug but they can be adapted for your package manager of choice. 
 
 I will probably adapt this to Packer at some point in the future as I move to NeoVim, and a Lua-based config file, instead of the standard .vimrc. 
-
-
 
 # TESTING 
 
@@ -110,7 +108,7 @@ Please, and thank you.
 
 Contributions are encouraged. Feel free to make a pull request with modifications. If you want to contribute at a deeper level - maybe even forking NeoVim for writing outright - do reach out to me. I will be happy to collaborate and learn from the community. 
 
-### TODO: 
+## TODO: 
 
 - Demo []
 - Windows Testing []
