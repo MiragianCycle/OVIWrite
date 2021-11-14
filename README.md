@@ -31,6 +31,11 @@ I presented my use-case and workflow, contrasting the tools and workflows *befor
 
 I could, but my personal .vimrc is a representation of my current work, which isn't only writing. Since I am engaged in teaching myself to code, much of my .vimrc aims to bridge my writing and coding workflows. I am assuming that most writers are interested in using Vim for writing. 
 
+## WHAT ABOUT NEOVIM?
+
+This vimrc has served me perfectly well when moving my workflow to NeoVim. Almost all the *Vim-first* plugins work on NeoVim with no issues, with the obvious exception of Vim-Wiki. 
+
+The NeoVim official website has easy instructions to ensure that this vimrc file (or the version that you modify to your requirements), will be loaded by NeoVim at launch. Click here [here](https://neovim.io/doc/user/nvim.html#nvim-from-vim)
 
 # APPROACH
 
