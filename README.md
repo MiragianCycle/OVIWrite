@@ -125,7 +125,7 @@ Contributions are encouraged. Feel free to make a pull request with modification
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPL](https://github.com/MiragianCycle/OVIWrite/blob/main/LICENSE)
 
 
 
