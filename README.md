@@ -13,17 +13,17 @@ OVIWrite (as in *Oh-We-Write*) is an attempt to make (Neo)Vim writer friendly ou
 
 I am a writer, not a tech person. 
 
-Coming across Vim for the first time last year was revelatory, but I'd be lying if I said the adoption process was easy. Indeed, it took me over two months to get Vim ready for my writing workflow. I was persistent but most users and writers aren't going to spend the time needed to get Vim up and running, which is a crying shame. Most writers would abandon Vim as too complex a beast at this point. I too would have abandoned it but the Vim community on YouTube came to the rescue. 
+Coming across Vim for the first time last year was revelatory, but I'd be lying if I said the adoption process was easy. Indeed, it took me over two months to get Vim ready for my writing workflow. I was persistent but most users and writers aren't going to spend the time needed to get Vim up and running.This is a crying shame; most writers would abandon Vim as too complex a beast at this point. I too would have abandoned it but the Vim community on YouTube came to the rescue. 
 
 This repo is an attempt to address that potential loss of a user-group who stand to gain much from Vim.
 
 #### NO REALLY, WHY? 
 
-Vim/NeoVim is the writing *instrument* of my dreams. I am a long suffering user of the ubiquitous Word by Microsoft. While Word has served me well, and allowed me to write a novel, it was always *getting in the way of my writing*. This is why I used Windows Notepad along with MS Word - it provided a more distraction-free writing environment than Word did, even if it wasn't powerful. 
+ I am a long suffering user of the ubiquitous Word by Microsoft. While Word has served me well, and allowed me to write a novel, it was always *getting in the way of my writing*. This is why I used Windows Notepad along with MS Word - it provided a more distraction-free writing environment than Word did, even if it wasn't powerful. 
+ 
+ What I needed was a powerful text editor that was fast, portable, extensible (i.e. around a writer's workflow or rather my writing workflow), and with support for version control. 
 
-What I needed was a powerful text editor that was fast, portable, extensible (i.e. around a writer's workflow or rather my writing workflow), and with support for version control. 
-
-Vim ticked all these boxes, and then some. 
+Vim/NeoVim is the writing *instrument* of my dreams - with the appropriate plugins, Vim transforms into the *writing environment* of my dreams. I've begun to think of Vim almost like an electric guitar, its plugins an effect-pedal board. Together, it has become an extension of my writing brain. I *think*, Vim *does*.
 
 I presented my use-case and workflow, contrasting the tools and workflows *before* and *after* Vim at the 2021 [VimConf](https://www.youtube.com/watch?v=2ORWaIqyj7k&lc=Ugzt12hOimAtCl3H7z54AaABAg). 
 
