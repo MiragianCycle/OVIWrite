@@ -65,17 +65,17 @@ Once you are comfortable with Vim, and can use the plugins effectively, you can 
 This .vimrc has served me well on Linux, MacOS and Android (via Termux). I've tested it on the following systems:
 
 A. **Linux**
-1. Ubuntu 20.04. Should work on Ubuntu derivatives such as pop!OS, Kubunutu, etc.,
-2. Debian 11
-3. Arch. Worked on Vanilla Arch, Arco-Linux and Garuda Linux. 
+    1. Ubuntu 20.04. Should work on Ubuntu derivatives such as pop!OS, Kubunutu, etc.,
+    2. Debian 11
+    3. Arch. Worked on Vanilla Arch, Arco-Linux and Garuda Linux. 
 
-**MacOS High Sierra** (I have a 10 year old Mac so this is the best I can do for the time being)
+B. **MacOS High Sierra** (I have a 10 year old Mac so this is the best I can do for the time being)
 
-B. **Android**
-I have a OnePlus7T, running Android 11 (or OxygenOS 11.0.a.1 more precisely), with Termux. A note on Termux available on the Google Play Store: it seemingly doesn't get any updates and I can barely install any packages any more, which is why I moved to Termux version available on F-Droid. The repos are fresh, updated and have had no issues since moving. 
+C. **Android**
+    I have a OnePlus7T, running Android 11 (or OxygenOS 11.0.a.1 more precisely), with Termux. A note on Termux available on the Google Play Store: it seemingly doesn't get any updates and I can barely install any packages any more, which is why I moved to Termux version available on F-Droid. The repos are fresh, updated and have had no issues since moving. 
 
-C. **Windows**
-Yet to attempt testing on Windows. 
+D. **Windows**
+    Yet to attempt testing on Windows. 
 
 ## KEY-BINDINGS
 
@@ -117,13 +117,11 @@ Contributions are encouraged. Feel free to make a pull request with modification
 
 ### TODO: 
 
-- Demo []
-- Windows Testing []
-- Tutorials []
-- Detailed documentation
-- Screenshots []
-
-
+- Demo [  ]
+- Windows Testing [  ]
+- Tutorials [  ]
+- Detailed documentation [  ]
+- Screenshots [  ]
 
 ## Authors
 
