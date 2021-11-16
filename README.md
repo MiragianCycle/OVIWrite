@@ -130,7 +130,7 @@ Contributions are encouraged. Feel free to make a pull request with modification
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
 
 
