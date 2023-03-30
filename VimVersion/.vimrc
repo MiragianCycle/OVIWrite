@@ -382,7 +382,7 @@ Plug 'thaerkh/vim-workspace'
 
 let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
-"You motherfucking compete me 
+"You motherfucking complete me 
 " Track the engine.
 "Plug 'SirVer/ultisnips'
 
