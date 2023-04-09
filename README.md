@@ -1,12 +1,14 @@
-![Screenshot](1.png)\
+**A Vim/NeoVim Configuration for Writing and Writers**
 
-![Screenshot](2.png)\
+![Screenshot](1.png)
+
+
+![Screenshot](2.png)
 
 ![Screenshot](3.png)
 
-**A Vim/NeoVim Configuration for Writing and Writers**
+[![Watch the video](https://www.youtube.com/watch?v=dEpuMM0zPeg&ab_channel=Theena)]
 
-# FAQ
 
 ## WHAT THE HECK IS 'OVIWrite'?
 
