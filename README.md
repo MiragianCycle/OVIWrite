@@ -7,7 +7,7 @@
 
 ![Screenshot](3.png)
 
-[![Watch the video](https://img.youtube.com/vi/dEpuMM0zPeg/default.jpg)](https://youtu.be/dEpunM0zPeg)
+[![Watch the video](https://img.youtube.com/vi/dEpuMM0zPeg/hqdefault.jpg)](https://youtu.be/dEpunM0zPeg)
 
 
 ## WHAT THE HECK IS 'OVIWrite'?
