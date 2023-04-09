@@ -40,9 +40,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'psliwka/vim-smoothie'
 Plug 'skanehira/preview-markdown.vim'
-Plug 'mattly/vim-markdown-enhancements'
 Plug 'mattn/calendar-vim'
 Plug 'vigoux/LanguageTool.nvim'
+"Plug 'inkarkat/vim-SyntaxRange'
+" 9000+ Snippets
+"Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+"Plug 'ervandew/supertab' 
+"Plug 'nvie/vim-flake8'
+"Plug 'tmhedberg/SimpylFold'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'tpope/vim-fugitive'
@@ -51,76 +56,47 @@ Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tell-k/vim-autopep8'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'dbeniamine/cheat.sh-vim'
 Plug 'rajasegar/vim-search-web'
 Plug 'voldikss/vim-floaterm'
 map <leader>f :FloatermToggle <CR>
 "Plug 'turbio/bracey.vim'
 Plug 'vimwiki/vimwiki'
-""Plug 'tbabej/taskwiki'
-Plug 'renerocksai/telekasten.nvim'
-Plug 'frabjous/knap'
-
-
-
-"Plug 'blindFS/vim-taskwarrior'
 Plug 'dhruvasagar/vim-table-mode'
-Plug 'ervandew/supertab'
 Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-pandoc-syntax' 
 Plug 'chipsenkbeil/vimwiki-server.nvim', { 'tag': 'v0.1.0-alpha.5' }
 Plug 'Pocco81/HighStr.nvim'
 "Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jceb/vim-orgmode'
-"Plug 'nvim-orgm"ode/orgmode'
 Plug 'sbdchd/neoformat'
-"Plug 'nvim-neorg/neorg'
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-neorg/neorg' 
+"Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-"Plug 'kristijanhusak/orgmode.nvim'
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+"Plug 'RishabhRD/popfix'
+"Plug 'RishabhRD/nvim-cheat.sh'
+"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+"Plug 'metakirby5/codi.vim'
+Plug 'kristijanhusak/orgmode.nvim'
 Plug 'vigoux/LanguageTool.nvim'
 Plug 'junegunn/fzf.vim'
 Plug 'michal-h21/vim-zettel'
 Plug 'https://github.com/alok/notational-fzf-vim'
 let g:nv_search_paths = ['~/Documents' ]
-Plug 'matze/vim-move'
-Plug 'iamcco/markdown-preview.nvim'
+Plug 'matze/vim-move' 
+Plug 'iamcco/markdown-preview.nvim' 
 Plug 'ggandor/lightspeed.nvim'
-"   This is a selection of plugins to make prose writing easier.
+"   This is a selection of plugins to make prose writing easier. 
 
-Plug 'dpelle/vim-LanguageTool'
-  :let g:languagetool_jar='$HOME/languagetool/languagetool-commandline.jar'
-
+Plug 'dpelle/vim-LanguageTool' 
+let g:languagetool_jar="/home/theena/languagetool/languagetool-commandline-2.2.jar"
 "Plug 'rhysd/vim-grammarous.vim'
-Plug 'ron89/thesaurus_query.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
-Plug 'reedes/vim-pencil'
-
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType wiki call pencil#init()
-
-augroup END
-
-
-
-
+Plug 'ron89/thesaurus_query.vim' 
+Plug 'junegunn/goyo.vim' 
+Plug 'junegunn/limelight.vim' 
+Plug 'reedes/vim-pencil' 
 Plug 'reedes/vim-wordy'
-Plug 'preservim/vim-wordchipper'
-Plug 'preservim/vim-lexical'
-
-augroup lexical
-  autocmd!
-  autocmd FileType markdown,mkd call lexical#init()
-  autocmd FileType textile call lexical#init()
-  autocmd FileType text call lexical#init({ 'spell': 0 })
-augroup END
-
 Plug 'plasticboy/vim-markdown'
-Plug 'mattly/vim-markdown-enhancements'
-
 Plug 'mhinz/vim-startify'
 Plug 'colepeters/spacemacs-theme.vim'
 Plug 'sainnhe/gruvbox-material'
@@ -131,44 +107,11 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'kblin/vim-fountain'
 "This is for Latex support
 Plug 'lervag/vimtex'
-
-
-
-
-
-
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-Plug 'garbas/vim-snipmate'
-
-" Optional:
-Plug 'honza/vim-snippets'
-
-
-"This is for Go Programming
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
-"This is for Google translate
-Plug 'kraftwerk28/gtranslate.nvim'
-Plug 'nvim-lua/plenary.nvim'
-
 let g:tex_flavor='latex'
 let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
-
-"Autocommands for Latex Skeleton Files
-:autocmd BufNewFile *.tex 0r ~/.vim/templates/skeleton.tex
-
-
-
-
-
-
-
-
-
 
 "This begins snippets"
 "
@@ -429,12 +372,8 @@ let g:tex_conceal='abdmg'
 
 let mapleader = " " "
 map <leader>c :close <CR>
-nmap <leader>f :FloatermToggle <CR>
-nmap <leader>rg :Rg <CR>
-nmap <leader>sp :SoftPencil <CR>
-nmap <leader>z :ZettelOpen <CR>
-nmap <leader>zs :ZettelSearch <CR>
-nmap <leader>te :Telescope current_buffer_fuzzy_find <CR>
+
+
 
 Plug 'thaerkh/vim-workspace'
 
@@ -443,7 +382,7 @@ Plug 'thaerkh/vim-workspace'
 
 let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
-"You motherfucking compete me
+"You motherfucking complete me 
 " Track the engine.
 "Plug 'SirVer/ultisnips'
 
@@ -452,13 +391,13 @@ let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
 " - https://github.com/Valloric/YouCompleteMe
-" - https://github.com/nvim-lua/completion-nvi"m
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
-"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" - https://github.com/nvim-lua/completion-nvim
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-"" If you want :UltiSnipsEdit to split your window.
-"let g:UltiSnipsEditSplit="vertical"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 
 
@@ -484,10 +423,10 @@ let g:limelight_conceal_ctermfg = 240
 
 " Color name (:help gui-colors) or RGB color
 let g:limelight_conceal_guifg = 'DarkGray'
-let g:limelight_conceal_guifg = '#262626'
+let g:limelight_conceal_guifg = '#777777'
 
 " Default: 0.5
-let g:limelight_default_coefficient = 0.5
+let g:limelight_default_coefficient = 0.7
 
 " Number of preceding/following paragraphs to include (default: 0)
 let g:limelight_paragraph_span = 1
@@ -522,7 +461,7 @@ let g:limelight_priority = -1
 
 
 
-" This section is to ensure that there is no conflict between vim and Nvim
+" This section is to ensure that there is no conflict between vim and Nvim 
 " which has to do with a conflict in variables in a shared file (https://vi.stackexchange.com/questions/10028/e576-failed-to-parse-shada-file-extra-bytes-in-msgpack-string-at-position-3)
 
 if !has('nvim')
@@ -542,23 +481,10 @@ endif
  " beautify the code:
 map <F12> :Autopep8<CR>
 
-" Plugs from github repos:
-" Plugs for Python development
-"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugs' } "let g:deoplete#enable_at_startup = 1
-"Plug 'zchee/deoplete-jedi'
-"Plug 'neomake/neomake'
-
-"if has('nvim')
-  "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugs' }
-"else
-  "Plug 'Shougo/deoplete.nvim'
-  "Plug 'roxma/nvim-yarp'
-  "Plug 'roxma/vim-hug-neovim-rpc'
-"endif
-"let g:deoplete#enable_at_startup = 1
+" Plugins from github repos:
 
 
-" Override configs by directory
+" Override configs by directory 
 "Plug 'arielrossanigo/dir-configs-override.vim'
 " Better file browser
 Plug 'scrooloose/nerdtree'
@@ -575,12 +501,9 @@ Plug 'fisadev/vim-ctrlp-cmdpalette'
 " Git integration
 Plug 'motemen/git-vim'
 "" Tab list panel
-"Plug 'kien/tabman.vim'
+Plug 'kien/tabman.vim'
 " Airline
 Plug 'vim-airline/vim-airline'
-let g:airline#extensions#wordcount#filetypes = '\vasciidoc|help|mail|markdown|markdown.pandoc|org|rst|tex|text'
-set laststatus=2    " enables vim-airline.
-
 Plug 'vim-airline/vim-airline-themes'
 " Terminal Vim with 256 colors colorscheme
 Plug 'fisadev/fisa-vim-colorscheme'
@@ -625,12 +548,12 @@ if has('python')
 endif
 " Relative numbering of lines (0 is the current line)
 " (disabled by default because is very intrusive and can't be easily toggled
-" on/off. When the plugin is present, will always activate the relative
-" numbering every time you go to normal mode. Author refuses to add a setting
+" on/off. When the plugin is present, will always activate the relative 
+" numbering every time you go to normal mode. Author refuses to add a setting 
 " to avoid that)
 " Plug 'myusuf3/numbers.vim'
 
-" Plugs from vim-scripts repos:
+" Plugins from vim-scripts repos:
 
 " Search results counter
 Plug 'vim-scripts/IndexedSearch'
@@ -694,7 +617,6 @@ autocmd FileType markdown setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " always show status bar
 set ls=2
-set statusline+=%{wordcount().words}\ words
 
 " incremental search
 set incsearch
@@ -715,8 +637,8 @@ map <leader>n :set nu rnu cursorline<CR>
 " tab navigation mappings
 map tn :tabn<CR>
 map tp :tabp<CR>
-map tm :tabm
-map tt :tabnew
+map tm :tabm 
+map tt :tabnew 
 map ts :tab split<CR>
 map <C-S-Right> :tabn<CR>
 imap <C-S-Right> <ESC>:tabn<CR>
@@ -745,15 +667,15 @@ set completeopt-=preview
 ca w!! w !sudo tee "%"
 
 " simple recursive grep
-nmap ,r :Ack
+nmap ,r :Ack 
 nmap ,wr :Ack <cword><CR>
 
 " use 256 colors when possible
 if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
 	let &t_Co = 256
-    colorscheme gruvbox
+    colorscheme gruvbox  
 else
-    colorscheme gruvbox
+    colorscheme gruvbox   
 endif
 
 " colors for gvim
@@ -790,17 +712,17 @@ if !isdirectory(&undodir)
 endif
 
 " ============================================================================
-" Plugs settings and mappings
+" Plugins settings and mappings
 " Edit them as you wish.
 
-" Tagbar -----------------------------
+" Tagbar ----------------------------- 
 
 " toggle tagbar display
 map <F4> :TagbarToggle<CR>
 " autofocus on tagbar open
 let g:tagbar_autofocus = 1
 
-" NERDTree -----------------------------
+" NERDTree ----------------------------- 
 
 " toggle nerdtree display
 map <F3> :NERDTreeToggle<CR>
@@ -814,7 +736,7 @@ map <leader>t :NERDTreeToggle<CR>
 " Tasklist ------------------------------
 
 " show pending tasks list
-map <F2>
+map <F2> :TaskList<CR>
 
 " CtrlP ------------------------------
 
@@ -859,7 +781,7 @@ nmap <leader>e :Errors<CR>
 let g:syntastic_check_on_open = 1
 " don't put icons on the sign column (it hides the vcs status icons of signify)
 let g:syntastic_enable_signs = 0
-" custom icons (enable them if you use a patched font, and enable the previous
+" custom icons (enable them if you use a patched font, and enable the previous 
 " setting)
 "let g:syntastic_error_symbol = '✗'
 "let g:syntastic_warning_symbol = '⚠'
@@ -881,7 +803,7 @@ nmap ,D :tab split<CR>:call jedi#goto()<CR>
 " NeoComplCache ------------------------------
 
 " most of them not documented because I'm not sure how they work
-" (docs aren't good, had to do a lot of trial and error to make
+" (docs aren't good, had to do a lot of trial and error to make 
 " it play nice)
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_ignore_case = 1
@@ -969,8 +891,7 @@ let g:airline_right_sep = '⮂'
 set completeopt=longest,menuone
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
-" emmet settings
+" emmet settings 
 let g:user_emmet_leader_key='<Space>'
 "use { 'vim-ctrlspace/vim-ctrlspace' }
-
 
