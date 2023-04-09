@@ -7,7 +7,7 @@
 
 ![Screenshot](3.png)
 
-[![Watch the video](https://www.youtube.com/watch?v=dEpuMM0zPeg&ab_channel=Theena)]
+[![Watch the video](https://img.youtube.com/vi/dEpuMM0zPeg/default.jpg)](https://youtu.be/dEpunM0zPeg)
 
 
 ## WHAT THE HECK IS 'OVIWrite'?
