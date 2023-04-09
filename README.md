@@ -1,8 +1,8 @@
-![1.png]\
+!(1.png)\
 
-![2.png]\
+!(2.png)\
 
-![3.png]
+!(3.png)
 
 **A Vim/NeoVim Configuration for Writing and Writers**
 
