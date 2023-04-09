@@ -37,39 +37,66 @@ call plug#begin('~/.vim/plugged')
 
 " main one
 " Vim-plug
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'psliwka/vim-smoothie'
 Plug 'skanehira/preview-markdown.vim'
+Plug 'mattn/calendar-vim'
 Plug 'vigoux/LanguageTool.nvim'
+"Plug 'inkarkat/vim-SyntaxRange'
+" 9000+ Snippets
+"Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+"Plug 'ervandew/supertab' 
+"Plug 'nvie/vim-flake8'
+"Plug 'tmhedberg/SimpylFold'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim' " :GV
 Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tell-k/vim-autopep8'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'rajasegar/vim-search-web'
 Plug 'voldikss/vim-floaterm'
 map <leader>f :FloatermToggle <CR>
+"Plug 'turbio/bracey.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'dhruvasagar/vim-table-mode'
-Plug 'ervandew/supertab'
 Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-pandoc-syntax' 
 Plug 'chipsenkbeil/vimwiki-server.nvim', { 'tag': 'v0.1.0-alpha.5' }
 Plug 'Pocco81/HighStr.nvim'
+"Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jceb/vim-orgmode'
 Plug 'sbdchd/neoformat'
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-neorg/neorg' 
+"Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+"Plug 'RishabhRD/popfix'
+"Plug 'RishabhRD/nvim-cheat.sh'
+"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+"Plug 'metakirby5/codi.vim'
+Plug 'kristijanhusak/orgmode.nvim'
 Plug 'vigoux/LanguageTool.nvim'
 Plug 'junegunn/fzf.vim'
 Plug 'michal-h21/vim-zettel'
 Plug 'https://github.com/alok/notational-fzf-vim'
 let g:nv_search_paths = ['~/Documents' ]
-Plug 'matze/vim-move'
-Plug 'iamcco/markdown-preview.nvim'
+Plug 'matze/vim-move' 
+Plug 'iamcco/markdown-preview.nvim' 
 Plug 'ggandor/lightspeed.nvim'
-"   This is a selection of plugins to make prose writing easier.
+"   This is a selection of plugins to make prose writing easier. 
+
+Plug 'dpelle/vim-LanguageTool' 
+let g:languagetool_jar="/home/theena/languagetool/languagetool-commandline-2.2.jar"
+"Plug 'rhysd/vim-grammarous.vim'
+Plug 'ron89/thesaurus_query.vim' 
+Plug 'junegunn/goyo.vim' 
+Plug 'junegunn/limelight.vim' 
+Plug 'reedes/vim-pencil' 
+Plug 'reedes/vim-wordy'
 Plug 'plasticboy/vim-markdown'
-Plug 'mattly/vim-markdown-enhancements'
 Plug 'mhinz/vim-startify'
 Plug 'colepeters/spacemacs-theme.vim'
 Plug 'sainnhe/gruvbox-material'
@@ -80,73 +107,273 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'kblin/vim-fountain'
 "This is for Latex support
 Plug 'lervag/vimtex'
-
-
-
-
-
-
-
-
-
-
-
-
-Plug 'dpelle/vim-LanguageTool'
-  :let g:languagetool_jar='$HOME/languagetool/languagetool-commandline.jar'
-
-"Plug 'rhysd/vim-grammarous.vim'
-Plug 'ron89/thesaurus_query.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
-Plug 'reedes/vim-pencil'
-Plug 'reedes/vim-wordy'
-Plug 'preservim/vim-wordchipper'
-Plug 'preservim/vim-lexical'
-
-
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType wiki call pencil#init()
-
-augroup END
-
-
-
-
-augroup lexical
-  autocmd!
-  autocmd FileType markdown,mkd call lexical#init()
-  autocmd FileType textile call lexical#init()
-  autocmd FileType text call lexical#init({ 'spell': 0 })
-augroup END
-
-
-
-
-
-
 let g:tex_flavor='latex'
 let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
 
-"Autocommands for Latex Skeleton Files
-:autocmd BufNewFile *.tex 0r ~/.vim/templates/skeleton.tex
+"This begins snippets"
+"
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'hrsh7th/cmp-nvim-lsp'
+"Plug 'hrsh7th/cmp-buffer'
+"Plug 'hrsh7th/cmp-path'
+"Plug 'hrsh7th/cmp-cmdline'
+"Plug 'hrsh7th/nvim-cmp'
+
+" For vsnip users.
+" Plug 'hrsh7th/cmp-vsnip'
+" Plug 'hrsh7th/vim-vsnip'
+"
+" " For luasnip users.
+" " Plug 'L3MON4D3/LuaSnip'
+" " Plug 'saadparwaiz1/cmp_luasnip'
+"
+"" For ultisnips users.
+" Plug 'SirVer/ultisnips'
+" " Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+"
+" " For snippy users.
+" " Plug 'dcampos/nvim-snippy'
+" " Plug 'dcampos/cmp-snippy'
+"
+"call plug#end()
+"
+"set completeopt=menu,menuone,noselect
+"
+"lua <<EOF
+"  -- Setup nvim-cmp.
+"    local cmp = require'cmp'
+"
+"      cmp.setup({
+"          snippet = {
+"                -- REQUIRED - you must specify a snippet engine
+"                      expand = function(args)
+"                              vim.fn["vsnip#anonymous"](args.body) -- For
+"                              `vsnip` users.
+"                                      --
+"                                      require('luasnip').lsp_expand(args.body)
+"                                      -- For `luasnip` users.
+"                                              --
+"                                              require('snippy').expand_snippet(args.body)
+"                                              -- For `snippy` users.
+"                                                      --
+"                                                      vim.fn["UltiSnips#Anon"](args.body)
+"                                                      -- For `ultisnips`
+"                                                      users.
+"                                                            end,
+"                                                                },
+"                                                                    mapping =
+"                                                                    {
+"                                                                          ['<C-b>']
+"                                                                          =
+"                                                                          cmp.mapping(cmp.mapping.scroll_docs(-4),
+"                                                                          {
+"                                                                          'i',
+"                                                                          'c'
+"                                                                          }),
+"                                                                                ['<C-f>']
+"                                                                                =
+"                                                                                cmp.mapping(cmp.mapping.scroll_docs(4),
+"                                                                                {
+"                                                                                'i',
+"                                                                                'c'
+"                                                                                }),
+"                                                                                      ['<C-Space>']
+"                                                                                      =
+"                                                                                      cmp.mapping(cmp.mapping.complete(),
+"                                                                                      {
+"                                                                                      'i',
+"                                                                                      'c'
+"                                                                                      }),
+"                                                                                            ['<C-y>']
+"                                                                                            =
+"                                                                                            cmp.config.disable,
+"                                                                                            --
+"                                                                                            Specify
+"                                                                                            `cmp.config.disable`
+"                                                                                            if
+"                                                                                            you
+"                                                                                            want
+"                                                                                            to
+"                                                                                            remove
+"                                                                                            the
+"                                                                                            default
+"                                                                                            `<C-y>`
+"                                                                                            mapping.
+"                                                                                                  ['<C-e>']
+"                                                                                                  =
+"                                                                                                  cmp.mapping({
+"                                                                                                          i = cmp.mapping.abort(),
+"                                                                                                                  c
+"                                                                                                                  =
+"                                                                                                                  cmp.mapping.close(),
+"                                                                                                                        }),
+"                                                                                                                              ['<CR>']
+"                                                                                                                              =
+"                                                                                                                              cmp.mapping.confirm({
+"                                                                                                                              select
+"                                                                                                                              =
+"                                                                                                                              true
+"                                                                                                                              }),
+"                                                                                                                              --
+"                                                                                                                              Accept
+"                                                                                                                              currently
+"                                                                                                                              selected
+"                                                                                                                              item.
+"                                                                                                                              Set
+"                                                                                                                              `select`
+"                                                                                                                              to
+"                                                                                                                              `false`
+"                                                                                                                              to
+"                                                                                                                              only
+"                                                                                                                              confirm
+"                                                                                                                              explicitly
+"                                                                                                                              selected
+"                                                                                                                              items.
+"                                                                                                                                  },
+"                                                                                                                                      sources
+"                                                                                                                                      =
+"                                                                                                                                      cmp.config.sources({
+"                                                                                                                                            { name = 'nvim_lsp'  },
+"                                                                                                                                                  {
+"                                                                                                                                                  name
+"                                                                                                                                                  =
+"                                                                                                                                                  'vsnip'
+"                                                                                                                                                  },
+"                                                                                                                                                  --
+"                                                                                                                                                  For
+"                                                                                                                                                  vsnip
+"                                                                                                                                                  users.
+"                                                                                                                                                        --
+"                                                                                                                                                        {
+"                                                                                                                                                        name
+"                                                                                                                                                        =
+"                                                                                                                                                        'luasnip'
+"                                                                                                                                                        },
+"                                                                                                                                                        --
+"                                                                                                                                                        For
+"                                                                                                                                                        luasnip
+"                                                                                                                                                        users.
+"                                                                                                                                                              --
+"                                                                                                                                                              {
+"                                                                                                                                                              name
+"                                                                                                                                                              =
+"                                                                                                                                                              'ultisnips'
+"                                                                                                                                                              },
+"                                                                                                                                                              --
+"                                                                                                                                                              For
+"                                                                                                                                                              ultisnips
+"                                                                                                                                                              users.
+"                                                                                                                                                                    --
+"                                                                                                                                                                    {
+"                                                                                                                                                                    name
+"                                                                                                                                                                    =
+"                                                                                                                                                                    'snippy'
+"                                                                                                                                                                    },
+"                                                                                                                                                                    --
+"                                                                                                                                                                    For
+"                                                                                                                                                                    snippy
+"                                                                                                                                                                    users.
+"                                                                                                                                                                        },
+"                                                                                                                                                                        {
+"                                                                                                                                                                              { name = 'buffer'  },
+"                                                                                                                                                                                  })
+"                                                                                                                                                                                    })
+"
+"                                                                                                                                                                                      --
+"                                                                                                                                                                                      Use
+"                                                                                                                                                                                      buffer
+"                                                                                                                                                                                      source
+"                                                                                                                                                                                      for
+"                                                                                                                                                                                      `/`
+"                                                                                                                                                                                      (if
+"                                                                                                                                                                                      you
+"                                                                                                                                                                                      enabled
+"                                                                                                                                                                                      `native_menu`,
+"                                                                                                                                                                                      this
+"                                                                                                                                                                                      won't
+"                                                                                                                                                                                      work
+"                                                                                                                                                                                      anymore).
+"                                                                                                                                                                                        cmp.setup.cmdline('/',
+"                                                                                                                                                                                        {
+"                                                                                                                                                                                            sources = {
+"                                                                                                                                                                                                  { name = 'buffer'  }
+"                                                                                                                                                                                                      }
+"                                                                                                                                                                                                        })
+"
+"                                                                                                                                                                                                          --
+"                                                                                                                                                                                                          Use
+"                                                                                                                                                                                                          cmdline
+"                                                                                                                                                                                                          &
+"                                                                                                                                                                                                          path
+"                                                                                                                                                                                                          source
+"                                                                                                                                                                                                          for
+"                                                                                                                                                                                                          ':'
+"                                                                                                                                                                                                          (if
+"                                                                                                                                                                                                          you
+"                                                                                                                                                                                                          enabled
+"                                                                                                                                                                                                          `native_menu`,
+"                                                                                                                                                                                                          this
+"                                                                                                                                                                                                          won't
+"                                                                                                                                                                                                          work
+"                                                                                                                                                                                                          anymore).
+"                                                                                                                                                                                                            cmp.setup.cmdline(':',
+"                                                                                                                                                                                                            {
+"                                                                                                                                                                                                                sources = cmp.config.sources({
+"                                                                                                                                                                                                                      { name = 'path'  }
+"                                                                                                                                                                                                                          },
+"                                                                                                                                                                                                                          {
+"                                                                                                                                                                                                                                { name = 'cmdline'  }
+"                                                                                                                                                                                                                                    })
+"                                                                                                                                                                                                                                      })
+"
+"                                                                                                                                                                                                                                        --
+"                                                                                                                                                                                                                                        Setup
+"                                                                                                                                                                                                                                        lspconfig.
+"                                                                                                                                                                                                                                          local
+"                                                                                                                                                                                                                                          capabilities
+"                                                                                                                                                                                                                                          =
+"                                                                                                                                                                                                                                          require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+"                                                                                                                                                                                                                                            --
+"                                                                                                                                                                                                                                            Replace
+"                                                                                                                                                                                                                                            <YOUR_LSP_SERVER>
+"                                                                                                                                                                                                                                            with
+"                                                                                                                                                                                                                                            each
+"                                                                                                                                                                                                                                            lsp
+"                                                                                                                                                                                                                                            server
+"                                                                                                                                                                                                                                            you've
+"                                                                                                                                                                                                                                            enabled.
+"                                                                                                                                                                                                                                              require('lspconfig')['<YOUR_LSP_SERVER>'].setup
+"                                                                                                                                                                                                                                              {
+"                                                                                                                                                                                                                                                  capabilities = capabilities
+"                                                                                                                                                                                                                                                    }
+"                                                                                                                                                                                                                                                    EOF
+"                                                                                                                                                                                                                                                    ``````
+"                                                                                                                                                                                                                                              }
+"                                                                                                                                                                                                                          }
+"                                                                                                                                                                                                                })
+"                                                                                                                                                                                                            })
+"                                                                                                                                                                                            }
+"                                                                                                                                                                                        })
+"                                                                                                                                                                        }
+"                                                                                                                                      })
+"                                                                                                  })
+"                                                                    }
+"          }
+"      })
+" "
+" "
 
 
-"Keybindings"
+
+
 
 let mapleader = " " "
 map <leader>c :close <CR>
-nmap <leader>f :FloatermToggle <CR>
-nmap <leader>rg :Rg <CR>
-nmap <leader>sp :SoftPencil <CR>
-nmap <leader>z :ZettelOpen <CR>
-nmap <leader>zs :ZettelSearch <CR>
-nmap <leader>te :Telescope current_buffer_fuzzy_find <CR>
+
+
 
 Plug 'thaerkh/vim-workspace'
 
@@ -155,7 +382,33 @@ Plug 'thaerkh/vim-workspace'
 
 let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 
-"This is for Goyo Integration, allowing for distraction-free writing
+"You motherfucking complete me 
+" Track the engine.
+"Plug 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+"Plug 'honza/vim-snippets'
+
+" Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
+" - https://github.com/Valloric/YouCompleteMe
+" - https://github.com/nvim-lua/completion-nvim
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+
+
+
+
+
+
+
+
+
+"This is for Goyo Integration
 map <leader>g :Goyo <CR>
 
 map <leader>s :wa! <CR>
@@ -170,10 +423,10 @@ let g:limelight_conceal_ctermfg = 240
 
 " Color name (:help gui-colors) or RGB color
 let g:limelight_conceal_guifg = 'DarkGray'
-let g:limelight_conceal_guifg = '#262626'
+let g:limelight_conceal_guifg = '#777777'
 
 " Default: 0.5
-let g:limelight_default_coefficient = 0.5
+let g:limelight_default_coefficient = 0.7
 
 " Number of preceding/following paragraphs to include (default: 0)
 let g:limelight_paragraph_span = 1
@@ -208,7 +461,7 @@ let g:limelight_priority = -1
 
 
 
-" This section is to ensure that there is no conflict between vim and Nvim
+" This section is to ensure that there is no conflict between vim and Nvim 
 " which has to do with a conflict in variables in a shared file (https://vi.stackexchange.com/questions/10028/e576-failed-to-parse-shada-file-extra-bytes-in-msgpack-string-at-position-3)
 
 if !has('nvim')
@@ -220,6 +473,20 @@ else
 endif
 
 
+
+
+
+
+
+ " beautify the code:
+map <F12> :Autopep8<CR>
+
+" Plugins from github repos:
+
+
+" Override configs by directory 
+"Plug 'arielrossanigo/dir-configs-override.vim'
+" Better file browser
 Plug 'scrooloose/nerdtree'
 " Code commenter
 Plug 'scrooloose/nerdcommenter'
@@ -234,15 +501,68 @@ Plug 'fisadev/vim-ctrlp-cmdpalette'
 " Git integration
 Plug 'motemen/git-vim'
 "" Tab list panel
-"Plug 'kien/tabman.vim'
+Plug 'kien/tabman.vim'
 " Airline
 Plug 'vim-airline/vim-airline'
-let g:airline#extensions#wordcount#filetypes = '\vasciidoc|help|mail|markdown|markdown.pandoc|org|rst|tex|text'
-set laststatus=2    " enables vim-airline.
-
 Plug 'vim-airline/vim-airline-themes'
 " Terminal Vim with 256 colors colorscheme
 Plug 'fisadev/fisa-vim-colorscheme'
+" Consoles as buffers
+"Plug 'rosenfeld/conque-term'
+" Pending tasks list
+"Plug 'fisadev/FixedTaskList.vim'
+" Surround
+"Plug 'tpope/vim-surround'
+" Autoclose
+Plug 'Townk/vim-autoclose'
+" Indent text object
+Plug 'michaeljsmith/vim-indent-object'
+" Indentation based movements
+Plug 'jeetsukumaran/vim-indentwise'
+" Python autocompletion, go to definition.
+"Plug 'davidhalter/jedi-vim'
+" Better autocompletion
+ "Plug 'Shougo/neocomplcache.vim'
+" Snippets manager (SnipMate), dependencies, and snippets repo
+"Plug 'MarcWeber/vim-addon-mw-utils'
+"Plug 'tomtom/tlib_vim'
+"Plug 'honza/vim-snippets'
+"Plug 'garbas/vim-snipmate'
+" Git/mercurial/others diff icons on the side of the file lines
+"Plug 'mhinz/vim-signify'
+" Automatically sort python imports
+"Plug 'fisadev/vim-isort'
+" Drag visual blocks arround
+Plug 'fisadev/dragvisuals.vim'
+" Window chooser
+"Plug 't9md/vim-choosewin'
+" Python and other languages code checker
+"Plug 'scrooloose/syntastic'
+" Paint css colors with the real color
+"Plug 'lilydjwg/colorizer'
+" Ack code search (requires ack installed in the system)
+Plug 'mileszs/ack.vim'
+if has('python')
+    " YAPF formatter for Python
+    Plug 'pignacio/vim-yapf-format'
+endif
+" Relative numbering of lines (0 is the current line)
+" (disabled by default because is very intrusive and can't be easily toggled
+" on/off. When the plugin is present, will always activate the relative 
+" numbering every time you go to normal mode. Author refuses to add a setting 
+" to avoid that)
+" Plug 'myusuf3/numbers.vim'
+
+" Plugins from vim-scripts repos:
+
+" Search results counter
+Plug 'vim-scripts/IndexedSearch'
+" XML/HTML tags navigation
+Plug 'vim-scripts/matchit.zip'
+" Gvim colorscheme
+Plug 'vim-scripts/Wombat'
+" Yank history navigation
+Plug 'vim-scripts/YankRing.vim'
 
 " Tell vim-plug we finished declaring plugins, so it can load them
 call plug#end()
@@ -297,7 +617,6 @@ autocmd FileType markdown setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " always show status bar
 set ls=2
-set statusline+=%{wordcount().words}\ words
 
 " incremental search
 set incsearch
@@ -318,8 +637,8 @@ map <leader>n :set nu rnu cursorline<CR>
 " tab navigation mappings
 map tn :tabn<CR>
 map tp :tabp<CR>
-map tm :tabm
-map tt :tabnew
+map tm :tabm 
+map tt :tabnew 
 map ts :tab split<CR>
 map <C-S-Right> :tabn<CR>
 imap <C-S-Right> <ESC>:tabn<CR>
@@ -348,15 +667,15 @@ set completeopt-=preview
 ca w!! w !sudo tee "%"
 
 " simple recursive grep
-nmap ,r :Ack
+nmap ,r :Ack 
 nmap ,wr :Ack <cword><CR>
 
 " use 256 colors when possible
 if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
 	let &t_Co = 256
-    colorscheme gruvbox
+    colorscheme gruvbox  
 else
-    colorscheme gruvbox
+    colorscheme gruvbox   
 endif
 
 " colors for gvim
@@ -393,17 +712,17 @@ if !isdirectory(&undodir)
 endif
 
 " ============================================================================
-" Plugs settings and mappings
+" Plugins settings and mappings
 " Edit them as you wish.
 
-" Tagbar -----------------------------
+" Tagbar ----------------------------- 
 
 " toggle tagbar display
 map <F4> :TagbarToggle<CR>
 " autofocus on tagbar open
 let g:tagbar_autofocus = 1
 
-" NERDTree -----------------------------
+" NERDTree ----------------------------- 
 
 " toggle nerdtree display
 map <F3> :NERDTreeToggle<CR>
@@ -417,7 +736,7 @@ map <leader>t :NERDTreeToggle<CR>
 " Tasklist ------------------------------
 
 " show pending tasks list
-map <F2>
+map <F2> :TaskList<CR>
 
 " CtrlP ------------------------------
 
@@ -462,7 +781,7 @@ nmap <leader>e :Errors<CR>
 let g:syntastic_check_on_open = 1
 " don't put icons on the sign column (it hides the vcs status icons of signify)
 let g:syntastic_enable_signs = 0
-" custom icons (enable them if you use a patched font, and enable the previous
+" custom icons (enable them if you use a patched font, and enable the previous 
 " setting)
 "let g:syntastic_error_symbol = '✗'
 "let g:syntastic_warning_symbol = '⚠'
@@ -484,7 +803,7 @@ nmap ,D :tab split<CR>:call jedi#goto()<CR>
 " NeoComplCache ------------------------------
 
 " most of them not documented because I'm not sure how they work
-" (docs aren't good, had to do a lot of trial and error to make
+" (docs aren't good, had to do a lot of trial and error to make 
 " it play nice)
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_ignore_case = 1
@@ -572,8 +891,7 @@ let g:airline_right_sep = '⮂'
 set completeopt=longest,menuone
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
-" emmet settings
+" emmet settings 
 let g:user_emmet_leader_key='<Space>'
 "use { 'vim-ctrlspace/vim-ctrlspace' }
-
 
