@@ -1,7 +1,5 @@
 set clipboard=unnamedplus
 
-
-
 " Fisa-vim-config
 " http://fisadev.github.io/fisa-vim-config/
 " version: 8.3.1
@@ -37,53 +35,31 @@ call plug#begin('~/.vim/plugged')
 
 " main one
 " Vim-plug
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'psliwka/vim-smoothie'
 Plug 'skanehira/preview-markdown.vim'
-Plug 'mattn/calendar-vim'
 Plug 'vigoux/LanguageTool.nvim'
-"Plug 'inkarkat/vim-SyntaxRange'
-" 9000+ Snippets
-"Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-"Plug 'ervandew/supertab' 
-"Plug 'nvie/vim-flake8'
-"Plug 'tmhedberg/SimpylFold'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim' " :GV
 Plug 'w0rp/ale'
-Plug 'jiangmiao/auto-pairs'
-Plug 'tell-k/vim-autopep8'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'rajasegar/vim-search-web'
 Plug 'voldikss/vim-floaterm'
 map <leader>f :FloatermToggle <CR>
-"Plug 'turbio/bracey.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax' 
 Plug 'chipsenkbeil/vimwiki-server.nvim', { 'tag': 'v0.1.0-alpha.5' }
 Plug 'Pocco81/HighStr.nvim'
-"Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jceb/vim-orgmode'
-Plug 'sbdchd/neoformat'
-Plug 'nvim-neorg/neorg' 
-"Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
-"Plug 'RishabhRD/popfix'
-"Plug 'RishabhRD/nvim-cheat.sh'
-"Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-"Plug 'metakirby5/codi.vim'
-Plug 'kristijanhusak/orgmode.nvim'
+lug 'kristijanhusak/orgmode.nvim'
 Plug 'vigoux/LanguageTool.nvim'
 Plug 'junegunn/fzf.vim'
 Plug 'michal-h21/vim-zettel'
 Plug 'https://github.com/alok/notational-fzf-vim'
 let g:nv_search_paths = ['~/Documents' ]
-Plug 'matze/vim-move' 
 Plug 'iamcco/markdown-preview.nvim' 
 Plug 'ggandor/lightspeed.nvim'
 "   This is a selection of plugins to make prose writing easier. 
@@ -98,7 +74,6 @@ Plug 'reedes/vim-pencil'
 Plug 'reedes/vim-wordy'
 Plug 'plasticboy/vim-markdown'
 Plug 'mhinz/vim-startify'
-Plug 'colepeters/spacemacs-theme.vim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
@@ -112,261 +87,6 @@ let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
-
-"This begins snippets"
-"
-"Plug 'neovim/nvim-lspconfig'
-"Plug 'hrsh7th/cmp-nvim-lsp'
-"Plug 'hrsh7th/cmp-buffer'
-"Plug 'hrsh7th/cmp-path'
-"Plug 'hrsh7th/cmp-cmdline'
-"Plug 'hrsh7th/nvim-cmp'
-
-" For vsnip users.
-" Plug 'hrsh7th/cmp-vsnip'
-" Plug 'hrsh7th/vim-vsnip'
-"
-" " For luasnip users.
-" " Plug 'L3MON4D3/LuaSnip'
-" " Plug 'saadparwaiz1/cmp_luasnip'
-"
-"" For ultisnips users.
-" Plug 'SirVer/ultisnips'
-" " Plug 'quangnguyen30192/cmp-nvim-ultisnips'
-"
-" " For snippy users.
-" " Plug 'dcampos/nvim-snippy'
-" " Plug 'dcampos/cmp-snippy'
-"
-"call plug#end()
-"
-"set completeopt=menu,menuone,noselect
-"
-"lua <<EOF
-"  -- Setup nvim-cmp.
-"    local cmp = require'cmp'
-"
-"      cmp.setup({
-"          snippet = {
-"                -- REQUIRED - you must specify a snippet engine
-"                      expand = function(args)
-"                              vim.fn["vsnip#anonymous"](args.body) -- For
-"                              `vsnip` users.
-"                                      --
-"                                      require('luasnip').lsp_expand(args.body)
-"                                      -- For `luasnip` users.
-"                                              --
-"                                              require('snippy').expand_snippet(args.body)
-"                                              -- For `snippy` users.
-"                                                      --
-"                                                      vim.fn["UltiSnips#Anon"](args.body)
-"                                                      -- For `ultisnips`
-"                                                      users.
-"                                                            end,
-"                                                                },
-"                                                                    mapping =
-"                                                                    {
-"                                                                          ['<C-b>']
-"                                                                          =
-"                                                                          cmp.mapping(cmp.mapping.scroll_docs(-4),
-"                                                                          {
-"                                                                          'i',
-"                                                                          'c'
-"                                                                          }),
-"                                                                                ['<C-f>']
-"                                                                                =
-"                                                                                cmp.mapping(cmp.mapping.scroll_docs(4),
-"                                                                                {
-"                                                                                'i',
-"                                                                                'c'
-"                                                                                }),
-"                                                                                      ['<C-Space>']
-"                                                                                      =
-"                                                                                      cmp.mapping(cmp.mapping.complete(),
-"                                                                                      {
-"                                                                                      'i',
-"                                                                                      'c'
-"                                                                                      }),
-"                                                                                            ['<C-y>']
-"                                                                                            =
-"                                                                                            cmp.config.disable,
-"                                                                                            --
-"                                                                                            Specify
-"                                                                                            `cmp.config.disable`
-"                                                                                            if
-"                                                                                            you
-"                                                                                            want
-"                                                                                            to
-"                                                                                            remove
-"                                                                                            the
-"                                                                                            default
-"                                                                                            `<C-y>`
-"                                                                                            mapping.
-"                                                                                                  ['<C-e>']
-"                                                                                                  =
-"                                                                                                  cmp.mapping({
-"                                                                                                          i = cmp.mapping.abort(),
-"                                                                                                                  c
-"                                                                                                                  =
-"                                                                                                                  cmp.mapping.close(),
-"                                                                                                                        }),
-"                                                                                                                              ['<CR>']
-"                                                                                                                              =
-"                                                                                                                              cmp.mapping.confirm({
-"                                                                                                                              select
-"                                                                                                                              =
-"                                                                                                                              true
-"                                                                                                                              }),
-"                                                                                                                              --
-"                                                                                                                              Accept
-"                                                                                                                              currently
-"                                                                                                                              selected
-"                                                                                                                              item.
-"                                                                                                                              Set
-"                                                                                                                              `select`
-"                                                                                                                              to
-"                                                                                                                              `false`
-"                                                                                                                              to
-"                                                                                                                              only
-"                                                                                                                              confirm
-"                                                                                                                              explicitly
-"                                                                                                                              selected
-"                                                                                                                              items.
-"                                                                                                                                  },
-"                                                                                                                                      sources
-"                                                                                                                                      =
-"                                                                                                                                      cmp.config.sources({
-"                                                                                                                                            { name = 'nvim_lsp'  },
-"                                                                                                                                                  {
-"                                                                                                                                                  name
-"                                                                                                                                                  =
-"                                                                                                                                                  'vsnip'
-"                                                                                                                                                  },
-"                                                                                                                                                  --
-"                                                                                                                                                  For
-"                                                                                                                                                  vsnip
-"                                                                                                                                                  users.
-"                                                                                                                                                        --
-"                                                                                                                                                        {
-"                                                                                                                                                        name
-"                                                                                                                                                        =
-"                                                                                                                                                        'luasnip'
-"                                                                                                                                                        },
-"                                                                                                                                                        --
-"                                                                                                                                                        For
-"                                                                                                                                                        luasnip
-"                                                                                                                                                        users.
-"                                                                                                                                                              --
-"                                                                                                                                                              {
-"                                                                                                                                                              name
-"                                                                                                                                                              =
-"                                                                                                                                                              'ultisnips'
-"                                                                                                                                                              },
-"                                                                                                                                                              --
-"                                                                                                                                                              For
-"                                                                                                                                                              ultisnips
-"                                                                                                                                                              users.
-"                                                                                                                                                                    --
-"                                                                                                                                                                    {
-"                                                                                                                                                                    name
-"                                                                                                                                                                    =
-"                                                                                                                                                                    'snippy'
-"                                                                                                                                                                    },
-"                                                                                                                                                                    --
-"                                                                                                                                                                    For
-"                                                                                                                                                                    snippy
-"                                                                                                                                                                    users.
-"                                                                                                                                                                        },
-"                                                                                                                                                                        {
-"                                                                                                                                                                              { name = 'buffer'  },
-"                                                                                                                                                                                  })
-"                                                                                                                                                                                    })
-"
-"                                                                                                                                                                                      --
-"                                                                                                                                                                                      Use
-"                                                                                                                                                                                      buffer
-"                                                                                                                                                                                      source
-"                                                                                                                                                                                      for
-"                                                                                                                                                                                      `/`
-"                                                                                                                                                                                      (if
-"                                                                                                                                                                                      you
-"                                                                                                                                                                                      enabled
-"                                                                                                                                                                                      `native_menu`,
-"                                                                                                                                                                                      this
-"                                                                                                                                                                                      won't
-"                                                                                                                                                                                      work
-"                                                                                                                                                                                      anymore).
-"                                                                                                                                                                                        cmp.setup.cmdline('/',
-"                                                                                                                                                                                        {
-"                                                                                                                                                                                            sources = {
-"                                                                                                                                                                                                  { name = 'buffer'  }
-"                                                                                                                                                                                                      }
-"                                                                                                                                                                                                        })
-"
-"                                                                                                                                                                                                          --
-"                                                                                                                                                                                                          Use
-"                                                                                                                                                                                                          cmdline
-"                                                                                                                                                                                                          &
-"                                                                                                                                                                                                          path
-"                                                                                                                                                                                                          source
-"                                                                                                                                                                                                          for
-"                                                                                                                                                                                                          ':'
-"                                                                                                                                                                                                          (if
-"                                                                                                                                                                                                          you
-"                                                                                                                                                                                                          enabled
-"                                                                                                                                                                                                          `native_menu`,
-"                                                                                                                                                                                                          this
-"                                                                                                                                                                                                          won't
-"                                                                                                                                                                                                          work
-"                                                                                                                                                                                                          anymore).
-"                                                                                                                                                                                                            cmp.setup.cmdline(':',
-"                                                                                                                                                                                                            {
-"                                                                                                                                                                                                                sources = cmp.config.sources({
-"                                                                                                                                                                                                                      { name = 'path'  }
-"                                                                                                                                                                                                                          },
-"                                                                                                                                                                                                                          {
-"                                                                                                                                                                                                                                { name = 'cmdline'  }
-"                                                                                                                                                                                                                                    })
-"                                                                                                                                                                                                                                      })
-"
-"                                                                                                                                                                                                                                        --
-"                                                                                                                                                                                                                                        Setup
-"                                                                                                                                                                                                                                        lspconfig.
-"                                                                                                                                                                                                                                          local
-"                                                                                                                                                                                                                                          capabilities
-"                                                                                                                                                                                                                                          =
-"                                                                                                                                                                                                                                          require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-"                                                                                                                                                                                                                                            --
-"                                                                                                                                                                                                                                            Replace
-"                                                                                                                                                                                                                                            <YOUR_LSP_SERVER>
-"                                                                                                                                                                                                                                            with
-"                                                                                                                                                                                                                                            each
-"                                                                                                                                                                                                                                            lsp
-"                                                                                                                                                                                                                                            server
-"                                                                                                                                                                                                                                            you've
-"                                                                                                                                                                                                                                            enabled.
-"                                                                                                                                                                                                                                              require('lspconfig')['<YOUR_LSP_SERVER>'].setup
-"                                                                                                                                                                                                                                              {
-"                                                                                                                                                                                                                                                  capabilities = capabilities
-"                                                                                                                                                                                                                                                    }
-"                                                                                                                                                                                                                                                    EOF
-"                                                                                                                                                                                                                                                    ``````
-"                                                                                                                                                                                                                                              }
-"                                                                                                                                                                                                                          }
-"                                                                                                                                                                                                                })
-"                                                                                                                                                                                                            })
-"                                                                                                                                                                                            }
-"                                                                                                                                                                                        })
-"                                                                                                                                                                        }
-"                                                                                                                                      })
-"                                                                                                  })
-"                                                                    }
-"          }
-"      })
-" "
-" "
-
-
 
 
 
