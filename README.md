@@ -1,8 +1,8 @@
-!(1.png)\
+![Screenshot](1.png)\
 
-!(2.png)\
+![Screenshot](2.png)\
 
-!(3.png)
+![Screenshot](3.png)
 
 **A Vim/NeoVim Configuration for Writing and Writers**
 
