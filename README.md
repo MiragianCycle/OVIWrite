@@ -24,17 +24,15 @@ This repo is an attempt to address that potential loss of a user-group who stand
  
  What I needed was a powerful text editor that was fast, portable, extensible (i.e. around a writer's workflow or rather my writing workflow), and with support for version control. 
  
- Vim/NeoVim is the writing *instrument* of my dreams - with the appropriate plugins, Vim transforms into the *writing environment* of my dreams. 
- 
- I've begun to think of Vim almost like an electric guitar, its plugins an effect-pedal board. Together, it has become an extension of my writing brain. I *think*, Vim *does*. 
- 
- I presented my use-case and workflow, contrasting the tools and workflows *before* and *after* Vim at the 2021 [VimConf](https://www.youtube.com/watch?v=2ORWaIqyj7k&lc=Ugzt12hOimAtCl3H7z54AaABAg). 
+## A SUMMARY OF USING VIM AND NEOVIM 
 
-## COULDN'T YOU JUST HAVE A GIT REPO FOR YOUR DOTFILES AND CALL IT A DAY?
+I started with Vim and have since moved to NeoVim. The .vimrc in the 'Vim Version' directory is a reflection of my mad-scientist approach to trying out every plugin that struck my fancy in the early days. It is also a reflection of the fact that I was learning to code on Vim as well, and was trying to turn into an IDE as well as a writing environment. 
 
-I could, but my personal .vimrc is a representation of my current work, which isn't only writing. Since I am engaged in teaching myself to code, much of my .vimrc aims to bridge my writing and coding workflows. I am assuming that most writers are interested in using Vim *only* for writing. 
+It is this config that was the basis of my presentation of use-case and workflow, contrasting the tools and workflows *before* and *after* Vim at the 2021 [VimConf](https://www.youtube.com/watch?v=2ORWaIqyj7k&lc=Ugzt12hOimAtCl3H7z54AaABAg). 
 
-### APPROACH
+I have since moved most almost all my workflow into NeoVim, including migrate the one plugin that made me stick to Vim throughout: [[https://github.com/vimwiki/vimwiki | vim-wiki]] 
+
+## APPROACH
 
 The assumption here is that you, a writer, have already downloaded and installed Vim/GVim/NeoVim on your system. I have also assumed that you are on the verge of configuring your .vimrc file to be writer friendly. 
 
@@ -46,7 +44,7 @@ If both of the above cases are true, then all you need to do is to download the 
 
 ## A NOTE ON PACKAGE MANAGERS
 
-I primarily use Vim-Plug to manage Plugins within Vim. Mostly because I've found it to be the easiest. The conventions used here will be for Vim-Plug but they can be adapted for your package manager of choice. 
+~~I primarily use Vim-Plug to manage Plugins within Vim. Mostly because I've found it to be the easiest. The conventions used here will be for Vim-Plug but they can be adapted for your package manager of choice.~~
 
 I will probably adapt this to Packer at some point in the future as I move to NeoVim, and a Lua-based config file, instead of the standard .vimrc. 
 
@@ -54,7 +52,7 @@ I will probably adapt this to Packer at some point in the future as I move to Ne
 
 I personally use this .vimrc with Vim and NeoVim. 
 
-This .vimrc can be a decent foundation for NeoVim. As I alluded to above, the plugins curated here are *Vim-first* but work well with NeoVim, with exception of Vim-wiki, which is why I continue using Vim. 
+This .vimrc can be a decent foundation for NeoVim. As I alluded to above, the plugins curated here are *Vim-first* but work well with NeoVim, except of Vim-wiki, which is why I continue using Vim. 
 
 NeoVim's official website offers a simple tutorial for Vim users to easily transition from their foundational .vimrc to NeoVim.
 
