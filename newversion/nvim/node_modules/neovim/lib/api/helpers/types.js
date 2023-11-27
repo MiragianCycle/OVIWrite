@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TYPES = void 0;
+const Buffer_1 = require("../Buffer");
+const Window_1 = require("../Window");
+const Tabpage_1 = require("../Tabpage");
+exports.TYPES = {
+    Buffer: Buffer_1.Buffer,
+    Window: Window_1.Window,
+    Tabpage: Tabpage_1.Tabpage,
+};
