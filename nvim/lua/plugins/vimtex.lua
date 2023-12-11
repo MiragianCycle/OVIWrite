@@ -1,4 +1,0 @@
-return {
-
-  { "lervag/vimtex" },
-}

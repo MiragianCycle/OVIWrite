@@ -1,4 +1,0 @@
-return {
-	"kblin/vim-fountain"
-}
-
