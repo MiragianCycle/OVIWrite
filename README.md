@@ -125,6 +125,12 @@ Contributions are encouraged. Feel free to make a pull request with modification
 - [@MiragianCycle](https://www.github.com/MiragianCycle), Theena Kumaragurunathan
 - [@mhegreberg](https://github.com/mhegreberg), Mark Hegreberg
 
+
+## ACKNOWLEDGEMENTS 
+
+None of this would be possible without the contributions of the entire Vim and NeoVim eco-systems. Please contribute in anyway, financial or otherwise, to these incredible projects and the tireless people who maintain them. 
+
+
 ## License
 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
