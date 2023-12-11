@@ -20,7 +20,7 @@ to make it easy for writers to start using NeoVim out of the box.
 
 This begs the question: what *kind* of writer would gravitate towards OVIWrite? It is a fair question and it is covered in detail below.
 
-Vim, at first, and now NeoVim have formed the basis of my dream writing environment. Who even dreams of their writing tools? Good question, I have no answers except I do venture outside regularly to touch grass - don't worry.
+Vim, at first, and now NeoVim have formed the basis of my dream writing environment. Who even dreams of their writing tools? Good question, I have no answers except to say that I do venture outside regularly to touch grass - don't worry.
 
 I wanted a writing tool that ticked these boxes:
 
