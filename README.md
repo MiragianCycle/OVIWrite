@@ -33,11 +33,9 @@ It is why conventional word processing software such as MS Word fails, at least 
 
 An ideal writing tool for me should adapt to my needs at a moment's notice:
 
-Focus on the novel? Sure, here's a beautiful LaTeX template for me to work on my novel.
-
-Write a screenplay? Why not?
-
-Build an inter-connected network of notes like Obsidian or Notion? Done. 
+- Focus on the novel? Sure, here's a beautiful LaTeX template for me to work on my novel.
+- Write a screenplay? Why not?
+- Build an inter-connected network of notes like Obsidian or Notion? Done. 
 
 Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) where I presented two early versions of OVIWrite.
 
