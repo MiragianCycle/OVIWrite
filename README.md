@@ -1,6 +1,9 @@
 # **OVIWrite: A WRITER'S NEOVIM**
  
 ![Loading Screen](assets/LoadingScreen.png)
+![Loading Screen](assets/FindFiles.png)
+
+
 
 
 - 🔥 Transform your Neovim into a full-fledged IWE
