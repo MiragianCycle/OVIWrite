@@ -69,6 +69,7 @@ I use this setup for the following use-cases:
 - Fountain files for writing scripts and screenplays
 - Markdown and Org Mode files for writing essays
 - Vim-wiki for my personal Zettlekasten 
+- A choice of dark and light colour schemes. 
 
 OVIWrite allows users to write in Markdown, LaTeX, Fountain (For Screenwriting) while, at the same time, having allowing the user to build a Personal Knowledge Base system (such as a Zettlekasten). See screenshots below. 
 
@@ -87,6 +88,8 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 - LaTeX compiler
 
 ## SCREENSHOTS
+
+The screenshots below show a variety of color schemes at play: Nightfox, DawnFox and NordFox. Also included in the config: Gruvbox and flavours of Catppuccin. 
 
 ### Long-form Writing
 
