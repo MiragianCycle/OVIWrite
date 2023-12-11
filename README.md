@@ -11,6 +11,7 @@
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
 - 🧹 Sane default settings for options for writers
+- Eye candy in the form of beautiful color schemes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
 - 📦 Comes with a wealth of plugins for longform writing, interconnected note-taking (wikis, etc.), and screenwriting. All pre-configured and ready to use
 
 ## OVI-WHAT NOW? 
@@ -69,7 +70,6 @@ I use this setup for the following use-cases:
 - Fountain files for writing scripts and screenplays
 - Markdown and Org Mode files for writing essays
 - Vim-wiki for my personal Zettlekasten 
-- A choice of dark and light colour schemes. 
 
 OVIWrite allows users to write in Markdown, LaTeX, Fountain (For Screenwriting) while, at the same time, having allowing the user to build a Personal Knowledge Base system (such as a Zettlekasten). See screenshots below. 
 
