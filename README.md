@@ -109,6 +109,8 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 - Screenwriting in Fountain format
 
+![Loading Screen](assets/Fountain.png)
+
 ### Note-taking and Research
 
 - Zettlekasten 
