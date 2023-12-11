@@ -1,5 +1,8 @@
 # **OVIWrite: A WRITER'S NEOVIM**
  
+![Loading Screen](assets/LoadingScreen.png)
+
+
 - 🔥 Transform your Neovim into a full-fledged IWE
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
