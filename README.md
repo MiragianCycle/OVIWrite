@@ -100,10 +100,18 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 ![Loading Screen](assets/Essay.png)
 
 
-
+- Longform Writing; Org-Mode
+ 
+ 
+![Loading Screen](assets/Org.png)
+ 
+ 
 - Longform Writing; Markdown
 
-- Longform Writing; Org-Mode
+![Loading Screen](assets/Markdown.png)
+
+
+
 
 ### Screenwriting 
 
