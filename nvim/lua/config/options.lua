@@ -6,19 +6,13 @@ opt.smartindent = true
 opt.wrap = true
 
 
----- Important Grammar and spell check
-opt.spelllang = 'en'
-opt.spell = true 
-
-
-
 -- Search
 
 opt.incsearch = true 
 opt.ignorecase = true 
 opt.smartcase = true
 opt.hlsearch = false
-opt.completeopt = "menuone,noselect"
+
 -- Apperance 
 
 opt.number = true 
