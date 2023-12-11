@@ -1,3 +1,0 @@
-return {
-  { "junegunn/limelight.vim" },
-}

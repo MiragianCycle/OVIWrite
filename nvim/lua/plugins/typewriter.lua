@@ -1,3 +1,0 @@
-return {
-  { "logico/typewriter-vim" },
-}

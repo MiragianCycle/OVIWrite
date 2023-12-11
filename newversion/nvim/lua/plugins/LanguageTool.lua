@@ -1,3 +1,0 @@
-return {
-	"vigoux/LanguageTool.nvim"
-}

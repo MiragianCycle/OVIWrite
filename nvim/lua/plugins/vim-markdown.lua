@@ -1,3 +1,0 @@
-return {
-  { "preservim/vim-markdown" },
-}
