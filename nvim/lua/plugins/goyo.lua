@@ -1,0 +1,4 @@
+return {
+	{ "junegunn/goyo.vim" },
+}
+
