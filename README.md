@@ -2,6 +2,7 @@
  
 ![Loading Screen](assets/LoadingScreen.png)
 ![Loading Screen](assets/FindFiles.png)
+![Loading Screen](assets/FindWord.png)
 
 
 
@@ -91,6 +92,8 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 
 - Longform Writing; LaTeX
 
+![Loading Screen](assets/LaTeX.png)
+
 - Longform Writing; Markdown
 
 - Longform Writing; Org-Mode
@@ -103,6 +106,8 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 
 - Zettlekasten 
 
+![Loading Screen](assets/Zettle.png)
+assets/Zettle.png
 
 ### ROADMAP
 
@@ -112,11 +117,6 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 		    - [ ] Website on GitHub maybe?
 			    - [ ] Blog: The case for writing in plain text
 	    - [ ] Installation streamlining
-
-
-
-
-
 
 
 
