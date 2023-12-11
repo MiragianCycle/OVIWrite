@@ -107,7 +107,6 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 - Zettlekasten 
 
 ![Loading Screen](assets/Zettle.png)
-assets/Zettle.png
 
 ### ROADMAP
 
