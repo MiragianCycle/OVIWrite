@@ -1,4 +1,4 @@
-**An Integrated Writing Environment Based on NeoVim**
+# **An Integrated Writing Environment Based on NeoVim**
 
 OVIWrite is a [NeoVim](https://neovim.io/) Integrated Writing Environment (IWE) powered by [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 to make it easy for writers to start using NeoVim out of the box. 
