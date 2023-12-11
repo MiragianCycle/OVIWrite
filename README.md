@@ -1,4 +1,4 @@
-# **A WRITER'S NEOVIM**
+# **OVIWrite: A WRITER'S NEOVIM**
  
 - 🔥 Transform your Neovim into a full-fledged IWE
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
