@@ -97,6 +97,10 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 ![Loading Screen](assets/LaTeX.png)
 
+![Loading Screen](assets/Essay.png)
+
+
+
 - Longform Writing; Markdown
 
 - Longform Writing; Org-Mode
