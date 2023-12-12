@@ -229,7 +229,7 @@ OVIWrite offers a higher floor from which to start your own explorations.
 
 You *don't* need to know how to program or read Lua code, to use OVIWrite. All that work has been done for you. Nothing is stopping you from peaking behind the curtains at the source code. Add or modify the code as you see fit if you are feeling extra adventurous 
 
-The good news is that Vim is almost 40 years old: the community has been around for decades, and have extensively documented tips, tricks and hacks. Chances are the error message you are seeing has been seen countless times before by countless people, and in all those occasions there was an experienced Vim user helping out a new-comer. 
+The good news is that Vim is almost 40 years old: the community has been around for decades, and have extensively documented tips, tricks and hacks. Chances are the error message you are seeing has been seen countless times before by countless people, and in all those occasions there was an experienced Vim user helping out a new-comer. I can speak from experience on this last fact.
 
 Once again, thinking of OVIWrite as akin to a musical instrument might be the best way to overcome its apparent complexity; instead of music, OVIWrite is purpose-built for efficient (and damn near magical) textual recall, creation and manipulation. 
 
