@@ -234,7 +234,8 @@ I can only offer personal anecdotes here in lieu of a more scientific approach. 
 
 2. Run the following commands: 
 
-```brew update
+```
+brew update
 brew doctor
 brew upgrade
 brew install node
@@ -248,6 +249,7 @@ brew install wget
 sudo pip3 install neovim-remote
 pip3 install --user pynvim
 brew install --cask mactex
+
 ```
 
 
