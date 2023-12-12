@@ -53,9 +53,12 @@ Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) whe
 
 Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, I used a combination of Vim and NeoVim during these talks. This was because I couldn't get the some Vim-specific plugins to work with NeoVim, a problem that I have since solved. 
 
-The config is now entirely built with Lua, following the modular structure of LazyVim.
+The config is now entirely built with Lua, following the modular structure of LazyVim. 
 
 I consider this version 0.4 (Dec 11th 2023)
+
+I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux (popOS 22.04), and Android 12 (OxygenOS 12.1 on a OnePlus 7T). 
+
 
 ## ⌨️  IWE
 
@@ -120,6 +123,91 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 | vimtex.lua            | LaTeX support                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | whichkey.lua          | Keyboard binding lookup                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | zen-mode.lua          | Distraction Free writing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+## KEYBOARD SHORTCUTS
+
+**OVIWrite** uses [which-key.nvim](https://github.com/folke/which-key.nvim) to help you remember your
+keymaps. Just press any key like `<space>` and you'll see a popup with all
+possible keymaps starting with `<space>`.
+
+
+- default `<leader>` is `<space>`
+
+<!-- keymaps:start -->
+
+## General
+
+| Key | Description | Mode |
+| --- | --- | --- |
+| <code>&lt;C-h&gt;</code> | Go to left window | **n**, **t** |
+| <code>&lt;C-j&gt;</code> | Go to lower window | **n**, **t** |
+| <code>&lt;C-k&gt;</code> | Go to upper window | **n**, **t** |
+| <code>&lt;C-l&gt;</code> | Go to right window | **n**, **t** |
+| <code>&lt;C-Up&gt;</code> | Increase window height | **n** |
+| <code>&lt;C-Down&gt;</code> | Decrease window height | **n** |
+| <code>&lt;C-Left&gt;</code> | Decrease window width | **n** |
+| <code>&lt;C-Right&gt;</code> | Increase window width | **n** |
+| <code>&lt;A-j&gt;</code> | Move down | **n**, **i**, **v** |
+| <code>&lt;A-k&gt;</code> | Move up | **n**, **i**, **v** |
+| <code>&lt;S-h&gt;</code> | Prev buffer | **n** |
+| <code>&lt;S-l&gt;</code> | Next buffer | **n** |
+| <code>[b</code> | Prev buffer | **n** |
+| <code>]b</code> | Next buffer | **n** |
+| <code>&lt;leader&gt;bb</code> | Switch to Other Buffer | **n** |
+| <code>&lt;leader&gt;`</code> | Switch to Other Buffer | **n** |
+| <code>&lt;esc&gt;</code> | Escape and clear hlsearch | **i**, **n** |
+| <code>&lt;leader&gt;ur</code> | Redraw / clear hlsearch / diff update | **n** |
+| <code>n</code> | Next search result | **n**, **x**, **o** |
+| <code>N</code> | Prev search result | **n**, **x**, **o** |
+| <code>&lt;C-s&gt;</code> | Save file | **i**, **x**, **n**, **s** |
+| <code>&lt;leader&gt;K</code> | Keywordprg | **n** |
+| <code>&lt;leader&gt;l</code> | Lazy | **n** |
+| <code>&lt;leader&gt;fn</code> | New File | **n** |
+| <code>&lt;leader&gt;xl</code> | Location List | **n** |
+| <code>&lt;leader&gt;xq</code> | Quickfix List | **n** |
+| <code>[q</code> | Previous quickfix | **n** |
+| <code>]q</code> | Next quickfix | **n** |
+| <code>&lt;leader&gt;cf</code> | Format | **n**, **v** |
+| <code>&lt;leader&gt;cd</code> | Line Diagnostics | **n** |
+| <code>]d</code> | Next Diagnostic | **n** |
+| <code>[d</code> | Prev Diagnostic | **n** |
+| <code>]e</code> | Next Error | **n** |
+| <code>[e</code> | Prev Error | **n** |
+| <code>]w</code> | Next Warning | **n** |
+| <code>[w</code> | Prev Warning | **n** |
+| <code>&lt;leader&gt;uf</code> | Toggle auto format (global) | **n** |
+| <code>&lt;leader&gt;uF</code> | Toggle auto format (buffer) | **n** |
+| <code>&lt;leader&gt;us</code> | Toggle Spelling | **n** |
+| <code>&lt;leader&gt;uw</code> | Toggle Word Wrap | **n** |
+| <code>&lt;leader&gt;uL</code> | Toggle Relative Line Numbers | **n** |
+| <code>&lt;leader&gt;ul</code> | Toggle Line Numbers | **n** |
+| <code>&lt;leader&gt;ud</code> | Toggle Diagnostics | **n** |
+| <code>&lt;leader&gt;uc</code> | Toggle Conceal | **n** |
+| <code>&lt;leader&gt;uh</code> | Toggle Inlay Hints | **n** |
+| <code>&lt;leader&gt;uT</code> | Toggle Treesitter Highlight | **n** |
+| <code>&lt;leader&gt;gg</code> | Lazygit (root dir) | **n** |
+| <code>&lt;leader&gt;gG</code> | Lazygit (cwd) | **n** |
+| <code>&lt;leader&gt;qq</code> | Quit all | **n** |
+| <code>&lt;leader&gt;ui</code> | Inspect Pos | **n** |
+| <code>&lt;leader&gt;L</code> | LazyVim Changelog | **n** |
+| <code>&lt;leader&gt;ft</code> | Terminal (root dir) | **n** |
+| <code>&lt;leader&gt;fT</code> | Terminal (cwd) | **n** |
+| <code>&lt;c-/&gt;</code> | Terminal (root dir) | **n** |
+| <code>&lt;c-_&gt;</code> | which_key_ignore | **n**, **t** |
+| <code>&lt;esc&gt;&lt;esc&gt;</code> | Enter Normal Mode | **t** |
+| <code>&lt;C-/&gt;</code> | Hide Terminal | **t** |
+| <code>&lt;leader&gt;ww</code> | Other window | **n** |
+| <code>&lt;leader&gt;wd</code> | Delete window | **n** |
+| <code>&lt;leader&gt;w-</code> | Split window below | **n** |
+| <code>&lt;leader&gt;w&vert;</code> | Split window right | **n** |
+| <code>&lt;leader&gt;-</code> | Split window below | **n** |
+| <code>&lt;leader&gt;&vert;</code> | Split window right | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;l</code> | Last Tab | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;f</code> | First Tab | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;&lt;tab&gt;</code> | New Tab | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;]</code> | Next Tab | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;d</code> | Close Tab | **n** |
+| <code>&lt;leader&gt;&lt;tab&gt;[</code> | Previous Tab | **n** |
 
 
 ## ⚡️ REQUIREMENTS
