@@ -167,7 +167,7 @@ possible keymaps starting with `<space>`.
 
 ## 📺 SCREENSHOTS
 
-Note: The screenshots below show a variety of color schemes at play: Nightfox, DawnFox and NordFox. Also included in the config: Gruvbox and flavours of Catppuccin. Users are, of course, free to add whatever color scheme that is available in the NeoVim ecosystem.
+Note: The screenshots below show a variety of color schemes at play: Nightfox, DawnFox and NordFox. Also included in the config: Gruvbox and flavours of Catppuccin. I've included my favourite color schemes; users are, of course, free to add whatever color scheme that is available in the NeoVim ecosystem.  
 
 ### Long-form Writing
 
@@ -206,7 +206,7 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## 👨💻 AUDIENCE 
 
-Who is this for? 
+I hear you: Who is this for? 
 
 Personally, I think of Vim/NeoVim as analogous to a musical instrument, say a piano. The first interaction with a piano is often messy, confusing and overwhelming; stick with it, and there is a little bit of magic waiting to be experienced.
 
@@ -214,28 +214,36 @@ This mindset has helped immensely in scaling the steep learning curve that comes
 
 But unlike me, writers like you don't have to invest the additional time in learning how to wrangle Vim to be a tool for writing. All you need is a couple of weeks practicing Vim motions and understanding its different modes. 
 
-Once you overcome that hurdle, open OVIWrite and get to writing! 
+Once you overcome that hurdle, install OVIWrite and get writing! 
 
 ### I am a writer, not a tech person. I don't know programming or how to read code. This looks overwhelming. Is this for me?
 
-Only you can answer that. 
+Only you can answer that. I don't consider myself to be a tech person - tech savvy, yes but I can barely read code myself. 
 
-No lie: there is a investment in time required to understand how to use Vim/NeoVim's modal editing. 
+So no lies here: (Neo)Vim motions and modal editing requires a rewiring of our writer brains. But the good news is that it shouldn't take more than two weeks of 10-15 minutes a day. [Vimtutor](https://www.youtube.com/watch?v=WAvKDsjqZ70), built into Vim, is the best place to practice.
 
-There is also some steep knowledge acquisition required to understand NeoVim's internal nuts and bolts so that you can get it to work *exactly* as you want it to. 
+There is also some steep knowledge acquisition required to understand NeoVim's internal nuts and bolts. This is only required if you want Vim to work *exactly* as you want it to. I did, which is why I set off on this journey three years ago. 
 
-OVIWrite offers a higher floor from which to start your own explorations. You *don't* need to know how to program or read Lua code, to use OVIWrite. All that work has been done for you. Nothing is stopping you from peaking behind the curtains at the source code. Add or modify the code as you see fit if you are feeling extra adventurous 
+You don't.  
+
+OVIWrite offers a higher floor from which to start your own explorations. 
+
+You *don't* need to know how to program or read Lua code, to use OVIWrite. All that work has been done for you. Nothing is stopping you from peaking behind the curtains at the source code. Add or modify the code as you see fit if you are feeling extra adventurous 
 
 Once again, thinking of OVIWrite as akin to a musical instrument might be the best way to overcome its apparent complexity; instead of music, OVIWrite is purpose-built for efficient (and damn near magical) textual recall, creation and manipulation. 
 
-TL;DR: Being tech savvy won't hurt. 
+TL;DR: Being tech savvy won't hurt but **it is not** a requirement. Being patient is. 
 
 
 ### Rewarding Long-Term Benefits:
 
 I can only offer personal anecdotes here in lieu of a more scientific approach. 
 
-In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because editing is Vim's superpower. Combined with the curated plugins included in OVIWrite, you should be writing, editing and world-building at the speed of thought. 
+I have steadily become very productive in the three years since my first encounter with Vim. 
+
+The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. 
+
+Editing, too, has become a joy because editing is Vim's superpower. Combined with the curated plugins included in OVIWrite, you should be writing, editing and world-building at the speed of thought!
 
 # INSTALLATION
 
