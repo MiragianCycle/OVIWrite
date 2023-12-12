@@ -9,11 +9,11 @@
 
 
 
-- 🔥 Transform your Neovim into a full-fledged IWE
+- 🔥 Transform your Neovim into a full-fledged IWE. Write, Edit and World-build at the speed of thought 
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
 - 🧹 Sane default settings and options for writers
-- 😻 Eye candy in the form of beautiful color schemes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
+- 😻 Eye candy in the form of beautiful color schemes, in dark and light modes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
 - 📦 Comes with a wealth of plugins for longform writing, interconnected note-taking (wikis, etc.), and screenwriting. All pre-configured and ready to use
 
 
@@ -24,9 +24,9 @@ OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environmen
 
 The goal is to make it as easy as possible for writers to start using NeoVim out of the box. 
 
-This begs the question: what *kind* of writer would gravitate towards OVIWrite? It is a fair question and it is covered in detail below.
+This begs the question: what *kind* of writer would gravitate towards OVIWrite in the first place? Good question. I spend some time discussing it below.
 
-Vim, at first, and now NeoVim have formed the basis of my dream writing environment. Who even dreams of their writing tools? Good question, I have no answers except to say that I do venture outside regularly to touch grass - don't worry.
+At first Vim, and now NeoVim, have formed the basis of my dream writing environment. Who even dreams of their writing tools? I have no answers except to say that I do venture outside regularly to touch grass and talk to people - don't worry.
 
 I wanted a writing tool that ticked these boxes:
 
@@ -36,15 +36,15 @@ I wanted a writing tool that ticked these boxes:
    - Research and note-taking
    - Screenwriting
  - Supported a wide range of plain text standards including Markdown and LaTeX. 
- - Adaptable to any platform, Unix style OSs (MacOS, Linux), desktop or mobile, Android or iOS
- - Had the features of traditional word processors (Spell and Grammar checking for instance)
- - Had quality of life improvements such as Version Control through Git
+ - Adaptable to any platform, Unix style OSs (MacOS, Linux) or otherwise (Windows), desktop or mobile, Android or iOS
+ - Offered the features of traditional word processors (Spell and Grammar checking for instance)
+ - Offered opinionated quality of life improvements such as Version Control through Git
  
-This is a tall order to ask for Word Processors. 
+This is a tall order to ask for Word Processors. It is why conventional word processing software such as MS Word fails, at least for me. 
 
-It is why conventional word processing software such as MS Word fails, at least for me. Granted I wrote my first novel on MS Word, I came to find that it was neither extensible enough to scale with my needs, nor was it nimble and fast. 
+Granted I wrote my first novel on MS Word, I came to find that it wasn't extensible enough to scale with my needs, nor was it nimble and fast. 
 
-An ideal writing tool for me should adapt to my needs at a moment's notice:
+An ideal writing tool for me should adapt a writer's needs at a moment's notice.
 
 - Get back to working on the novel? Sure, here's a beautiful LaTeX template for me to work on my novel.
 - Write a screenplay? Why not?
@@ -55,9 +55,9 @@ Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) whe
 - [Writing, Editing and World-Building at the Speed of Thought](https://www.youtube.com/watch?app=desktop&v=2ORWaIqyj7k) (version 0.1)
 - [Vimkipedia: Or How I Built my Second Brain Using Vim](https://www.youtube.com/watch?v=q80hXvorl0o) (version 0.2)
 
-Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, I used a combination of Vim and NeoVim during these talks. This was because I couldn't get some Vim-specific plugins to work with NeoVim, a problem that I have since solved. 
+Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, the eagle-eyed among you will notice I used a combination of Vim and NeoVim during these talks. This was because I couldn't get some Vim-specific plugins to work with NeoVim, a problem that has since been solved. 
 
-This version of the config is now entirely built using Lua, and follows the modular structure of LazyVim. 
+This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim. 
 
 I consider this version 0.4 (Dec 11th 2023)
 
@@ -66,27 +66,28 @@ I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux 
 
 ## ⌨️  IWE
 
-The solution to my problem with my writing tools was simple: I needed an Integrated Writing Environment, a toolkit that was nimble and fast, yet extensible to meet all my *text* needs. 
+I realized that I needed an Integrated Writing Environment, a toolkit that was fast, yet extensible enough to scale with a writer's changing requirements. 
 
-I spent alot of time writing on diverse IDEs to get a sense of what I wanted out of my IWE;
+I spent a lot of time writing on diverse IDEs to get a sense of what I wanted out of my IWE;
 in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm-edu/) and indeed the many Vim/NeoVim inspired *distros* like [NVChad](https://nvchad.com/), [LunarVim](https://www.lunarvim.org/), and [Doom Emacs](https://github.com/doomemacs/doomemacs). 
 
 
 ## 🎹 FEATURES
 
-I use this setup for the following use-cases:
+I use OVIWrite for the following use-cases: 
 
 - LaTex documents for my novels and academic writing
 - Fountain files for writing scripts and screenplays
 - Markdown and Org Mode files for writing simpler reports and blogs
 - Vim-wiki for my personal Zettelkasten 
 
-OVIWrite allows users to write in Markdown, LaTeX, Fountain (for Screenwriting) while, at the same time, allowing the user to build a Personal Knowledge Base system (such as a Zettelkasten). See screenshots below. 
+See screenshots below. 
 
-This setup is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user to install and get to writing.
+OVIWrite is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user (or indeed reasonably tech savvy) to install and get to writing.
+
 OVIWrite has been tested on Linux, MacOS and Android (through Termux available on the F-Droid store - not Google Play Store) environments.
 
-**Windows users**: I would love feedback on your experiences as well as contributions.
+**Windows users**: I don't have a Windows machine to test on at the moment. I would love for Windows users to run OVIWrite on their local machines - your feedback is most welcome! 
 
 The documentation here, much like the source code, is a fork of Lazy Vim. And like the source code, I've discarded sections in the documentation that aren't relevant for writers. 
 
