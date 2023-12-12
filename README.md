@@ -315,6 +315,10 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 		    - [ ] Website on GitHub maybe?
 			    - [ ] Blog: The case for writing in plain text
 	    - [ ] Installation streamlining
+	    - [ ] Features planned for version 0.5
+		  - [ ] Autocomplete (still wonky)
+		  - [ ] Snippets
+		  - [ ] Thesaurus 
 
 
 
