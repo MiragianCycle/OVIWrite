@@ -69,9 +69,9 @@ I use this setup for the following use-cases:
 - LaTex documents for my novels and academic writing
 - Fountain files for writing scripts and screenplays
 - Markdown and Org Mode files for writing simpler reports and blogs
-- Vim-wiki for my personal Zettlekasten 
+- Vim-wiki for my personal Zettelkasten 
 
-OVIWrite allows users to write in Markdown, LaTeX, Fountain (For Screenwriting) while, at the same time, having allowing the user to build a Personal Knowledge Base system (such as a Zettlekasten). See screenshots below. 
+OVIWrite allows users to write in Markdown, LaTeX, Fountain (For Screenwriting) while, at the same time, having allowing the user to build a Personal Knowledge Base system (such as a Zettelkasten). See screenshots below. 
 
 This setup is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user to install and get to writing.
 OVIWrite has been tested on Linux, MacOS and Android (through Termux available on the F-Droid store [not Google Play Store]) environments.
@@ -114,7 +114,7 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 | vim-latex-preview.lua | Preview LaTeX documents                                                                                                                                                                                                                                                                             |
 | vim-pencil.lua        | line wrapping for prose                                                                                                                                                                                                                                                                                                                                             |
 | vim-wiki.lua          | Personal knowledge management tool                                                                                                                                                                                                                                                                                                                                                                                              |
-| vim-zettel.lua        | Zettlekasten function                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| vim-zettel.lua        | Zettelkasten function                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | vimorg.lua            | additional Org-Mode support within NeoVim                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | vimtex.lua            | LaTeX support                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | whichkey.lua          | Keyboard binding lookup                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -163,7 +163,7 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 ### Note-taking and Research
 
-- Zettlekasten 
+- Zettelkasten 
 
 ![Loading Screen](assets/Zettle.png)
 
