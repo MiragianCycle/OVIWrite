@@ -66,9 +66,9 @@ in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.co
 
 I use this setup for the following use-cases:
 
-- LaTex documents for my novels
+- LaTex documents for my novels and academic writing
 - Fountain files for writing scripts and screenplays
-- Markdown and Org Mode files for writing essays
+- Markdown and Org Mode files for writing simpler reports and blogs
 - Vim-wiki for my personal Zettlekasten 
 
 OVIWrite allows users to write in Markdown, LaTeX, Fountain (For Screenwriting) while, at the same time, having allowing the user to build a Personal Knowledge Base system (such as a Zettlekasten). See screenshots below. 
