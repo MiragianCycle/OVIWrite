@@ -1,3 +1,9 @@
+---
+pandoc_:
+  - output: .pdf
+  - defaults: academic
+---
+
 # **OVIWrite: A WRITER'S NEOVIM**
  
 ![Loading Screen](assets/LoadingScreen.png)
@@ -16,7 +22,7 @@
 
 ## OVI-WHAT NOW? 
 
-OVIWrite is a [NeoVim](https://neovim.io/) Integrated Writing Environment (IWE) powered by [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
+OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environment (IWE) powered by [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 to make it easy for writers to start using NeoVim out of the box. 
 
 This begs the question: what *kind* of writer would gravitate towards OVIWrite? It is a fair question and it is covered in detail below.
@@ -26,16 +32,16 @@ Vim, at first, and now NeoVim have formed the basis of my dream writing environm
 I wanted a writing tool that ticked these boxes:
 
  - Fast AF
- - Adaptable to any platform, desktop or mobile, Android or IOS
- - Had the features of traditional word processors (Spell and Grammar checking for instance)
- - Had quality of life improvements such as Version Control through Git
- - Supported a wide range of plain text standards such as Markdown and LaTeX
  - Switched seamlessly between three specific kinds of writing
    - Long form prose (i.e. novels)
    - Research and note-taking
    - Screenwriting
-
-This is a tall order for any word processor. 
+ - Supported a wide range of plain text standards such as Markdown and LaTeX. 
+ - Adaptable to any platform, desktop or mobile, Android or IOS
+ - Had the features of traditional word processors (Spell and Grammar checking for instance)
+ - Had quality of life improvements such as Version Control through Git
+ 
+This is a tall order to ask for Word Processors. 
 
 It is why conventional word processing software such as MS Word fails, at least for me. Granted I wrote my first novel on MS Word, I found that it was neither extensible enough to scale with my needs, nor was it nimble and fast. 
 
@@ -50,7 +56,7 @@ Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) whe
 - [Writing, Editing and World-Building at the Speed of Thought](https://www.youtube.com/watch?app=desktop&v=2ORWaIqyj7k) (ver 0.1)
 - [Vimkipedia: Or How I Built my Second Brain Using Vim](https://www.youtube.com/watch?v=q80hXvorl0o) (version 0.2)
 
-Essentially, these two talks served as early demos of OVIWrite, versions 0.1 and 0.2. I used a combination of Vim and NeoVim during these talks. This was primarily because I couldn't get the vimwiki plugin to work with NeoVim, a problem that I have since solved. 
+Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, I used a combination of Vim and NeoVim during these talks. This was because I couldn't get the some Vim-specific plugins to work with NeoVim, a problem that I have since solved. 
 
 The config is now entirely built with Lua, following the modular structure of LazyVim.
 
