@@ -189,7 +189,7 @@ No lie: there is a investment in time required to understand how to use Vim/NeoV
 
 ### Rewarding Long-Term Benefits:
 
-I can only offer personal anecdotes here in lieu of more scientific approach. In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because it editing is Vim's superpower. 
+I can only offer personal anecdotes here in lieu of a more scientific approach. In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because editing is Vim's superpower. 
 
 ### 🚗 ROADMAP
 
