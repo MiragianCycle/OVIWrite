@@ -137,9 +137,15 @@ possible keymaps starting with `<space>`.
 
 ### Startup 
 
-| Key | Mode   | Description     |
-|-----|--------|-----------------|
-| f   | Normal | Find files      |
+| Key | Mode   | Description          |
+|-----|--------|----------------------|
+| f   | Normal | Find files           |
+| n   | Normal | New                  |
+| r   | Normal | Recent files         |
+| g   | Normal | Grep (find word)     |
+| l   | Normal | Lazy Package Manager |
+| q   | Normal | Quit OVIWrite        |
+
 
 
 ## ⚡️ REQUIREMENTS
