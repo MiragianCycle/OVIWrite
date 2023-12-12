@@ -191,11 +191,49 @@ No lie: there is a investment in time required to understand how to use Vim/NeoV
 
 I can only offer personal anecdotes here in lieu of a more scientific approach. In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because editing is Vim's superpower. 
 
-## INSTALLATION
+# INSTALLATION
 
-Assuming you have NeoVim and its dependencies installed:
+## First Steps (Linux, Mac and Windows)
+
+
+1. Install NeoVim. Ensure that it is close to the latest version i.e. > 0.8, but preferably 0.9
+2. Install Pandoc
+3. Install Git
+4. Install a Terminal emulator like Kitty/Alacritty/Konsole/iTerm
+5. Install a minimalist PDF reader like Zathura or Skim
+
+## Linux and MacOS
+
+1. Install brew from [here](https://brew.sh/) using the following command: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+2. Run the following commands: 
+
+```brew update
+brew doctor
+brew upgrade
+brew install node
+brew install python
+brew install fzf
+brew install ripgrep
+brew install pandoc
+brew install pandoc-plot
+brew install npm
+brew install wget
+sudo pip3 install neovim-remote
+pip3 install --user pynvim
+brew install --cask mactex
+```
+3. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
+
+## Windows
+
+I am unsure of package managers for Windows and how they work. Testing will be done soon and documentation will be expanded after that. 
+
+
+## Installing OVIWrite
 
 ### Unix Systems (Linux and MacOS)
+
 ```bash
 # Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
