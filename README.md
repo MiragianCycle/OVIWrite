@@ -11,10 +11,10 @@
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
 - 🧹 Sane default settings for options for writers
-- Eye candy in the form of beautiful color schemes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
+- 😻 Eye candy in the form of beautiful color schemes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
 - 📦 Comes with a wealth of plugins for longform writing, interconnected note-taking (wikis, etc.), and screenwriting. All pre-configured and ready to use
 
-## OVI-WHAT NOW? 
+## 🔎 OVI-WHAT NOW? 
 
 OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environment (IWE) powered by [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
 to make it easy for writers to start using NeoVim out of the box. 
@@ -56,13 +56,13 @@ The config is now entirely built with Lua, following the modular structure of La
 
 I consider this version 0.4 (Dec 11th 2023)
 
-## IWE
+## ⌨️  IWE
 
 The solution to my problem with my writing tools was simple: I needed an Integrated Writing Environment, a toolkit that was nimble and fast, yet extensible to meet all my *text* needs. I spent time writing on diverse IDEs;
 in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm-edu/) and indeed the many Vim/NeoVim inspired *distros* like [NVChad](https://nvchad.com/), [LunarVim](https://www.lunarvim.org/), and [Doom Emacs](https://github.com/doomemacs/doomemacs). 
 
 
-## FEATURES
+## 🎹 FEATURES
 
 I use this setup for the following use-cases:
 
@@ -80,7 +80,7 @@ Windows users: I would love feedback on your experiences as well as contribution
 
 The documentation here, much like the source code, is a fork of Lazy Vim. Thanks to the good folk there who have done an incredible job making this NeoVim distribution frictionless for us non-tech folk. 
 
-## PLUGINS 
+## 🔌 PLUGINS 
 
 | Plugins               | Type                                                                                |
 |-----------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ The documentation here, much like the source code, is a fork of Lazy Vim. Thanks
 - LaTeX compiler
 - [Pandoc](https://pandoc.org/)
 
-## SCREENSHOTS
+## 📺 SCREENSHOTS
 
 The screenshots below show a variety of color schemes at play: Nightfox, DawnFox and NordFox. Also included in the config: Gruvbox and flavours of Catppuccin. 
 
@@ -167,7 +167,7 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 ![Loading Screen](assets/Zettle.png)
 
-### ROADMAP
+### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
 	    - [ ] Testing out on non Unix systems i.e. Windows
@@ -178,19 +178,19 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 
 
-## CAN I CONTRIBUTE?
+## 🤝 CAN I CONTRIBUTE?
 
 Please, and thank you. 
 
 Contributions are encouraged. Feel free to make a pull request with modifications. If you want to contribute at a deeper level - maybe even forking NeoVim for writing outright - do reach out to me. I will be happy to collaborate and learn from the community. 
 
-## Authors
+## ䷑ Authors
 
 - [@MiragianCycle](https://www.github.com/MiragianCycle), Theena Kumaragurunathan
 - [@mhegreberg](https://github.com/mhegreberg), Mark Hegreberg
 
 
-## ACKNOWLEDGEMENTS 
+## 🎁 ACKNOWLEDGEMENTS 
 
 None of this would be possible without the contributions of the entire Vim and NeoVim eco-systems. Please contribute in anyway, financial or otherwise, to these incredible projects and the tireless people who maintain them. 
 
