@@ -167,6 +167,29 @@ The screenshots below show a variety of color schemes at play: Nightfox, DawnFox
 
 ![Loading Screen](assets/Zettle.png)
 
+
+## 👨💻 AUDIENCE 
+
+Writers who are drawn to Vim/NeoVim often exhibit specific characteristics that align with the philosophy and functionality of these text editors. 
+
+Personally, I think of Vim/NeoVim as analogous to a musical instrument, say a piano. The first interaction with a piano is often messy, confusing and overwhelming; stick with it, and there is a little bit of magic waiting to be experienced. 
+
+### I am a writer, not a tech person. This looks overwhelming. Is this for me?
+
+Only you can answer that. 
+
+No lie: there is a investment in time required to understand how to use Vim/NeoVim's modal editing. There is also some steep knowledge acquisition required to understand NeoVim's internal nuts and bolts so that you can get it to work *exactly* as you want it to. OVIWrite offers a base to start your own explorations. That said, there are broadly three kinds of writers that can use OVIWrite:
+
+- Tech-Savvy Writers
+- Detail-Oriented and Patient
+- Efficiency-Seekers
+ 
+
+
+### Rewarding Long-Term Benefits:
+
+I can only offer personal anecdotes here in lieu of more scientific approach. In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because it editing is Vim's superpower. 
+
 ### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
