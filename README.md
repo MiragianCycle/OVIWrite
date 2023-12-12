@@ -191,6 +191,33 @@ No lie: there is a investment in time required to understand how to use Vim/NeoV
 
 I can only offer personal anecdotes here in lieu of a more scientific approach. In the three years since I discovered Vim/NeoVim for myself, I have steadily become very productive. The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. Editing too has become a joy because editing is Vim's superpower. 
 
+## INSTALLATION
+
+Assuming you have NeoVim and its dependencies installed:
+
+### Unix Systems (Linux and MacOS)
+```bash
+# Clone the repository
+git clone https://github.com/MiragianCycle/OVIWrite.git
+
+# Move the 'nvim' folder to the NeoVim configuration directory
+mv OVIWrite/nvim ~/.config/nvim
+```
+
+### Windows
+
+
+### Windows:
+
+```cmd
+:: Clone the repository
+git clone https://github.com/MiragianCycle/OVIWrite.git
+
+:: Move the 'nvim' folder to the NeoVim configuration directory (example: %APPDATA%\Local\nvim)
+move OVIWrite\nvim %APPDATA%\Local\nvim
+```
+
+
 ### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
