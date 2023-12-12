@@ -235,12 +235,12 @@ I can only offer personal anecdotes here in lieu of a more scientific approach. 
 2. Run the following commands: 
 
 ```
-brew update
-brew doctor
-brew upgrade
-brew install node
-brew install python
-brew install fzf
+- brew update
+- brew doctor
+- brew upgrade
+- brew install node
+- brew install python
+- brew install fzf
 brew install ripgrep
 brew install pandoc
 brew install pandoc-plot
