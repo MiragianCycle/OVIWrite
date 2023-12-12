@@ -1,9 +1,3 @@
----
-pandoc_:
-  - output: .pdf
-  - defaults: academic
----
-
 # **OVIWrite: A Writer's NeoVim**
  
 ![Loading Screen](assets/LoadingScreen.png)
