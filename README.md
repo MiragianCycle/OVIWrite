@@ -235,22 +235,23 @@ I can only offer personal anecdotes here in lieu of a more scientific approach. 
 2. Run the following commands: 
 
 ```
-- brew update
-- brew doctor
-- brew upgrade
-- brew install node
-- brew install python
-- brew install fzf
-- brew install ripgrep
-- brew install pandoc
-- brew install pandoc-plot
-- brew install npm
-- brew install wget
-- sudo pip3 install neovim-remote
-- pip3 install --user pynvim
-- brew install --cask mactex
+brew update
+brew doctor
+brew upgrade
+brew install node
+brew install python
+brew install fzf
+brew install ripgrep
+brew install pandoc
+brew install pandoc-plot
+brew install npm
+brew install wget
+sudo pip3 install neovim-remote
+pip3 install --user pynvim
+brew install --cask mactex
 
 ```
+
 
 3. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
 
