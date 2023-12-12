@@ -206,9 +206,6 @@ mv OVIWrite/nvim ~/.config/nvim
 
 ### Windows
 
-
-### Windows:
-
 ```cmd
 :: Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
