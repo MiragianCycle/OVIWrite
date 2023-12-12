@@ -64,7 +64,7 @@ This is version 0.4 (Dec 11th 2023)
 
 ## ⌨️  IWE
 
-I realized that I needed an Integrated Writing Environment, a toolkit that was fast, yet extensible enough to scale with a writer's changing requirements. 
+I needed an Integrated Writing Environment, a toolkit that was fast, yet extensible enough to scale with a writer's changing requirements. 
 
 I spent a lot of time writing on diverse IDEs to get a sense of what I wanted out of my IWE;
 in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm-edu/) and indeed the many Vim/NeoVim inspired *distros* like [NVChad](https://nvchad.com/), [LunarVim](https://www.lunarvim.org/), and [Doom Emacs](https://github.com/doomemacs/doomemacs). 
@@ -86,11 +86,9 @@ See screenshots below.
 
 OVIWrite is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user (or indeed reasonably tech savvy) to install and get to writing.
 
-OVIWrite has been tested on Linux, MacOS and Android (through Termux available on the F-Droid store - not Google Play Store) environments.
+**Windows users**: As mentioned earlier, I don't have a Windows machine to test on at the moment. I would love for Windows users to run OVIWrite on their local machines - your feedback and contributions are most welcome! 
 
-**Windows users**: I don't have a Windows machine to test on at the moment. I would love for Windows users to run OVIWrite on their local machines - your feedback is most welcome! 
-
-The documentation here, much like the source code, is a fork of Lazy Vim. And like the source code, I've discarded sections in the documentation that aren't relevant for writers. 
+The documentation here, much like the source code, is a fork of Lazy Vim. And like the source code, I've discarded large sections in the documentation that aren't relevant for writers. 
 
 This is a good opportunity though to thank the good folk there who have done an incredible job making this NeoVim distribution frictionless for us non-tech folk.  
 
