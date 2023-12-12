@@ -4,7 +4,7 @@ pandoc_:
   - defaults: academic
 ---
 
-# **OVIWrite: A WRITER'S NEOVIM**
+# **OVIWrite: A Writer's NeoVim**
  
 ![Loading Screen](assets/LoadingScreen.png)
 ![Loading Screen](assets/FindFiles.png)
