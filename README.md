@@ -1,4 +1,4 @@
-# **OVIWrite: A Writer's NeoVim**
+# **A Writer's NeoVim**
  
 ![Loading Screen](assets/LoadingScreen.png)
 ![Loading Screen](assets/FindFiles.png)
