@@ -16,8 +16,9 @@
 
 ## 🔎 OVI-WHAT NOW? 
 
-OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environment (IWE) powered by [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
-to make it easy for writers to start using NeoVim out of the box. 
+OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environment (IWE) built using [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim). 
+
+The goal is to make it as easy as possible for writers to start using NeoVim out of the box. 
 
 This begs the question: what *kind* of writer would gravitate towards OVIWrite? It is a fair question and it is covered in detail below.
 
