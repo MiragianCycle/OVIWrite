@@ -127,16 +127,6 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 Most writers writing on word processors use Rich Text. Rich Text, for all its benefits, does come back with significant drawbacks: vendor lock-in being a primary concern. Rich Text also doesn't age well. Rich text's older, less glamorous kin, Plain Text ages better, doesn't lock you into a vendor, and gives you the freedom to choose the tools that are suited for your work. For more, read [The Case for Plain Text](PlainTextForWriters.html)
 
 
-## ⌨️  IWE
-
-I needed an Integrated Writing Environment, a toolkit that was fast, yet extensible enough to scale with a writer's changing requirements. 
-
-I spent a lot of time writing on diverse IDEs to get a sense of what I wanted out of my IWE;
-in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm-edu/) and indeed the many Vim/NeoVim inspired *distros* like [NVChad](https://nvchad.com/), [LunarVim](https://www.lunarvim.org/), and [Doom Emacs](https://github.com/doomemacs/doomemacs). 
-
-I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux (popOS 22.04 on my desktop, and Ubuntu Server 22.04 on my server), and Android 12 (OxygenOS 12.1 on a OnePlus 7T). I don't have a Windows machine to test at the moment. iPad testing is ongoing. I am fairly confident that OVIWrite will work pretty great on a semi-recent Android tablet (I don't have an Android tablet to test), as long as Termux is installed. 
-
-
 
 ## 🎹 FEATURES
 
@@ -157,6 +147,16 @@ I use OVIWrite for the following use-cases:
 - Vim-wiki for my personal Zettelkasten 
 
 See screenshots below. 
+
+## ⌨️  IWE
+
+I needed an Integrated Writing Environment, a toolkit that was fast, yet extensible enough to scale with a writer's changing requirements. 
+
+I spent a lot of time writing on diverse IDEs to get a sense of what I wanted out of my IWE;
+in fact, my inspirations for OVIWrite were [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm-edu/) and indeed the many Vim/NeoVim inspired *distros* like [NVChad](https://nvchad.com/), [LunarVim](https://www.lunarvim.org/), and [Doom Emacs](https://github.com/doomemacs/doomemacs). 
+
+I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux (popOS 22.04 on my desktop, and Ubuntu Server 22.04 on my server), and Android 12 (OxygenOS 12.1 on a OnePlus 7T). I don't have a Windows machine to test at the moment. iPad testing is ongoing. I am fairly confident that OVIWrite will work pretty great on a semi-recent Android tablet (I don't have an Android tablet to test), as long as Termux is installed. 
+
 
 
 ## 🔌 PLUGINS 
