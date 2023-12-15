@@ -228,14 +228,6 @@ possible keymaps starting with `<space>`.
 
 
 
-## ⚡️ REQUIREMENTS
-
-- Neovim >= **0.8.0** and its associated dependencies (needs to be built with **LuaJIT**)
-- Git >= **2.19.0** (for partial clones support)
-- a [Nerd Font](https://www.nerdfonts.com/) **_(optional but highly recommended)_**
-- LaTeX compiler
-- [Pandoc](https://pandoc.org/)
-
 ## 📺 SCREENSHOTS
 
 Note: The screenshots below show a variety of color schemes at play: Nightfox, DawnFox and NordFox. Also included in the config: Gruvbox and flavours of Catppuccin. I've included my favourite color schemes; users are, of course, free to add whatever color scheme that is available in the NeoVim ecosystem.  
@@ -276,6 +268,15 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 
 # INSTALLATION
+
+## ⚡️ REQUIREMENTS
+
+- Neovim >= **0.8.0** and its associated dependencies (needs to be built with **LuaJIT**)
+- Git >= **2.19.0** (for partial clones support)
+- a [Nerd Font](https://www.nerdfonts.com/) **_(optional but highly recommended)_**
+- LaTeX compiler
+- [Pandoc](https://pandoc.org/)
+
 
 ## First Steps (Linux, Mac and Windows)
 
