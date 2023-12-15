@@ -286,7 +286,7 @@ brew install npm
 brew install wget
 sudo pip3 install neovim-remote
 pip3 install --user pynvim
-brew install --cask mactex```
+brew install --cask mactex
 
 
 ```
