@@ -141,9 +141,6 @@ Git is a robust version control system initially designed for software developme
 
 ## 🎹 FEATURES
 
-OVIWrite is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user (or indeed reasonably tech savvy) to install and get to writing.
-
-
 - **Write, Edit, World-Build at the speed of thought**:  OVIWrite liberates your writing process by focusing on plain text, freeing you from vendor lock-in for unparalleled flexibility.
 - **Effortless Collaboration**: Built-in version control using LazyGit ensures seamless tracking and collaborative writing experiences 
 - **Versatile Syntax Support**: From LaTeX to Markdown and from Org-mode to Fountain, enjoy comprehensive syntax support for every writing endeavor—from reports and essays to screenplays and personal wikis 
