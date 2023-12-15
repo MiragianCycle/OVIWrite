@@ -327,7 +327,7 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 	    - [X] LSP integrations for Grammarly, Proselint
 	    - [X] Autocomplete
 	    - [ ] Testing 
-		    - [X] Linux: ✅
+		    - [X] Linux (Debian and Ubuntu-based): ✅
 		    - [X] MacOS: ✅
 		    - [X] Linux: ✅
 		    - [X] Android (via Termux): ✅
