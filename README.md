@@ -128,6 +128,9 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 
 Most writers writing on word processors use Rich Text. Rich Text, for all its benefits, does come back with significant drawbacks: vendor lock-in being a primary concern. Rich Text also doesn't age well. Rich text's older, less glamorous kin, Plain Text ages better, doesn't lock you into a vendor, and gives you the freedom to choose the tools that are suited for your work. For more, read [The Case for Plain Text](PlainTextForWriters.html)
 
+### Embracing Git For Writing
+
+Git is a robust version control system initially designed for software development, and has emerged as an invaluable asset for my writing workflow. Really, I think it's damn near criminal that we don't teach writers Git at some point in their developmental stage. Read more [here](gitForWrites.md)
 
 
 ## 🎹 FEATURES
