@@ -302,12 +302,15 @@ mv OVIWrite/nvim ~/.config/nvim
 
 ### Windows
 
-```cmd
+```
+cmd
 :: Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
 
 :: Move the 'nvim' folder to the NeoVim configuration directory (example: %APPDATA%\Local\nvim)
-move OVIWrite\nvim %APPDATA%\Local\nvim```
+move OVIWrite\nvim %APPDATA%\Local\nvim
+
+```
 
 
 ### 🚗 ROADMAP
