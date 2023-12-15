@@ -204,28 +204,6 @@ I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux 
 | whichkey.lua          | Keyboard binding lookup                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | zen-mode.lua          | Distraction Free writing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-## KEYBOARD SHORTCUTS
-
-**OVIWrite** uses [which-key.nvim](https://github.com/folke/which-key.nvim) to help you remember your
-keymaps. Just press any key like `<space>` and you'll see a popup with all
-possible keymaps starting with `<space>`.
-
-
-- default `<leader>` is `<space>`
-
-<!-- keymaps:start -->
-
-### Startup 
-
-| Key | Mode   | Description          |
-|-----|--------|----------------------|
-| f   | Normal | Find files           |
-| n   | Normal | New                  |
-| r   | Normal | Recent files         |
-| g   | Normal | Grep (find word)     |
-| l   | Normal | Lazy Package Manager |
-| q   | Normal | Quit OVIWrite        |
-
 
 
 ## 📺 SCREENSHOTS
@@ -342,6 +320,30 @@ git clone https://github.com/MiragianCycle/OVIWrite.git
 move OVIWrite\nvim %APPDATA%\Local\nvim
 
 ```
+# USAGE 
+ 
+## Keyboard Shortcuts
+
+**OVIWrite** uses [which-key.nvim](https://github.com/folke/which-key.nvim) to help you remember your
+keymaps. Just press any key like `<space>` and you'll see a popup with all
+possible keymaps starting with `<space>`.
+
+
+- default `<leader>` is `<space>`
+
+<!-- keymaps:start -->
+
+### Startup 
+
+| Key | Mode   | Description          |
+|-----|--------|----------------------|
+| f   | Normal | Find files           |
+| n   | Normal | New                  |
+| r   | Normal | Recent files         |
+| g   | Normal | Grep (find word)     |
+| l   | Normal | Lazy Package Manager |
+| q   | Normal | Quit OVIWrite        |
+
 
 
 ### 🚗 ROADMAP
