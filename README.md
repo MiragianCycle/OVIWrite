@@ -324,9 +324,15 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 ### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
-	    - [X] LSP 
+	    - [X] LSP integrations for Grammarly, Proselint
 	    - [X] Autocomplete
-	    - [ ] Testing out on non Unix systems i.e. Windows
+	    - [ ] Testing 
+		    - [X] Linux: ✅
+		    - [X] MacOS: ✅
+		    - [X] Linux: ✅
+		    - [X] Android (via Termux): ✅
+		    - [X] iPad: ❌
+		    - [0] Windows: 
 	    - [ ] Documentation
 		    - [X] Website on GitHub maybe?
 			    - [ ] Blog: The case for writing in plain text
