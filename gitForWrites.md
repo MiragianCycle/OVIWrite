@@ -38,5 +38,8 @@ Incorporating Git into the writing toolkit opens doors to enhanced collaboration
 
 A more thorough tutorial is coming up, but in the meantime [this](https://www.theodinproject.com/lessons/foundations-git-basics) is how I learnt it. 
 
+### Additional Reading
+
+1. [Using Git Version Control for writing](https://news.itsfoss.com/version-control-writers/)
 
 [Back to Home](https://miragiancycle.github.io/OVIWrite/)
