@@ -142,7 +142,7 @@ OVIWrite is built to be as frictionless as possible for a reasonably experienced
 - **Effortless Collaboration**: Built-in version control using LazyGit ensures seamless tracking and collaborative writing experiences 
 - **Versatile Syntax Support**: From LaTeX to Markdown and from Org-mode to Fountain, enjoy comprehensive syntax support for every writing endeavor—from reports and essays to screenplays and personal wikis 
 - **Flawless Composition**: Spellcheck, thesaurus, and dictionary tools integrated for a seamless writing experience 
-- **Built-in Translator**: Embrace a built-in translator that effortlessly translates between English and a diverse range of languages, breaking down language barriers with ease.
+- **Built-in Translator**: A built-in translator effortlessly translates between English and a diverse range of languages, breaking down language barriers with ease.
 
 I use OVIWrite for the following use-cases: 
 
