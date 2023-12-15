@@ -393,4 +393,8 @@ None of this would be possible without the contributions of the entire Vim and N
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
 
-
+### Additional Reading
+1. [Friction: Or How I Learnt to Stop Worrying and Love Vim](https://news.itsfoss.com/how-i-started-loving-vim/)
+2. [Configuring Vim as a writing tool](https://news.itsfoss.com/configuring-vim-writing/)
+3. [Every year is someone's year of Linux Desktop](https://news.itsfoss.com/filiming-with-foss-tech/)
+4. [Using Git Version Control as a writer](https://news.itsfoss.com/version-control-writers/)
