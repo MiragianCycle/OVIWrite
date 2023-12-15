@@ -289,7 +289,8 @@ I am unsure of package managers for Windows and how they work. Testing will be d
 
 ### Unix Systems (Linux and MacOS)
 
-```bash
+```
+bash
 # Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
 
