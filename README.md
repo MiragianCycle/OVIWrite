@@ -296,6 +296,9 @@ I am unsure of package managers for Windows and how they work. Testing will be d
 
 ## Installing OVIWrite
 
+You can [download](https://github.com/MiragianCycle/OVIWrite/archive/refs/tags/0.4.zip) the zip file containing all the source code. Copy it into the appropriate folder. Detailed installation instructions below:
+
+
 ### Unix Systems (Linux and MacOS)
 
 ```
