@@ -255,7 +255,7 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 
 ### The Promise of Plain Text
 
-Most writers writing on word processors use Rich Text. Rich Text, for all its benefits, does come back with significant drawbacks: vendor lock-in being a primary concern. Rich Text also doesn't age well. Rich text's older, less glamorous kin, Plain Text ages better, doesn't lock you into a vendor, and gives you the freedom to choose the tools that are suited for your work. For more, read [The Case for Plain Text](https://github.com/MiragianCycle/OVIWrite/blob/main/PlainTextForWriters.md)
+Most writers writing on word processors use Rich Text. Rich Text, for all its benefits, does come back with significant drawbacks: vendor lock-in being a primary concern. Rich Text also doesn't age well. Rich text's older, less glamorous kin, Plain Text ages better, doesn't lock you into a vendor, and gives you the freedom to choose the tools that are suited for your work. For more, read [The Case for Plain Text](PlainTextForWriters.html)
 
 # INSTALLATION
 
