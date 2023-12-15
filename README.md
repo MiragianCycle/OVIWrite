@@ -328,9 +328,9 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 	    - [X] Autocomplete
 	    - [ ] Testing 
 		    - [X] Linux (Debian and Ubuntu-based): ✅
-		    - [X] MacOS: ✅
+		    - [X] MacOS (> 10.0): ✅
 		    - [X] Linux: ✅
-		    - [X] Android (via Termux): ✅
+		    - [X] Android (> Android 10)(via Termux): ✅
 		    - [X] iPad: ❌
 		    - [0] Windows: 
 	    - [ ] Documentation
