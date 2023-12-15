@@ -316,13 +316,14 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 ### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
+	    - [ ] LSP 
+	    - [ ] Autocomplete
 	    - [ ] Testing out on non Unix systems i.e. Windows
 	    - [ ] Documentation
 		    - [ ] Website on GitHub maybe?
 			    - [ ] Blog: The case for writing in plain text
 	    - [ ] Installation streamlining
 	    - [ ] Features planned for version 0.5
-		  - [ ] Autocomplete (still wonky)
 		  - [ ] Snippets
 		  - [ ] Thesaurus 
 		  - [ ] BibTex and Zotero integrations
