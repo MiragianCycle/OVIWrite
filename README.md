@@ -262,9 +262,7 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 
 2. Run the following commands: 
 
-'''brew update
-brew doctor
-brew upgrade
+'''brew update brew doctor brew upgrade
 brew install node
 brew install python
 brew install fzf
