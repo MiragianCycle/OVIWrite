@@ -258,23 +258,21 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## First Steps (Linux, Mac and Windows)
 
+### Linux and MacOS
 
-1. Install NeoVim. Ensure that it is close to the latest version i.e. > 0.8, but preferably 0.9
-2. Install Pandoc
-3. Install Git
-4. Install a Terminal emulator like Kitty/Alacritty/Konsole/iTerm
-5. Install a minimalist PDF reader like Zathura or Skim
-
-## Linux and MacOS
-
-1. Install brew from [here](https://brew.sh/) using the following command: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
-
-2. Run the following commands
+1. Launch a terminal emulator. Terminal emulators come pre-installed on Mac and Linux machines. If you want third-party emulators, I highly recommend [iTerm](https://iterm2.com/) for MacOS 
+ 
+2. Install brew from [here](https://brew.sh/) using the following command: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+ 
+3. Run the following commands
 
 ```
-brew update brew doctor brew upgrade
+brew update brew doctor 
+brew upgrade
 brew install node
 brew install python
+brew install nvim
+brew install git
 brew install fzf
 brew install ripgrep
 brew install pandoc
@@ -288,7 +286,7 @@ brew install --cask mactex
 
 3. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
 
-## Windows
+### Windows
 
 I am unsure of package managers for Windows and how they work. Testing will be done soon and documentation will be expanded after that. 
 
