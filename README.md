@@ -81,6 +81,9 @@ I currently run this version of OVIWrite on my Mac (MacOS Sonoma 14.1.2), Linux 
 
 ## 🎹 FEATURES
 
+OVIWrite is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user (or indeed reasonably tech savvy) to install and get to writing.
+
+
 - **Write, Edit, World-Build at the speed of thought**:  OVIWrite liberates your writing process by focusing on plain text, freeing you from vendor lock-in for unparalleled flexibility.
 - **Effortless Collaboration**: Built-in version control using LazyGit ensures seamless tracking and collaborative writing experiences 
 - **Versatile Syntax Support**: From LaTeX to Markdown and from Org-mode to Fountain, enjoy comprehensive syntax support for every writing endeavor—from reports and essays to screenplays and personal wikis 
@@ -96,13 +99,6 @@ I use OVIWrite for the following use-cases:
 
 See screenshots below. 
 
-OVIWrite is built to be as frictionless as possible for a reasonably experienced Vim/NeoVim user (or indeed reasonably tech savvy) to install and get to writing.
-
-**Windows users**: As mentioned earlier, I don't have a Windows machine to test on at the moment. I would love for Windows users to run OVIWrite on their local machines - your feedback and contributions are most welcome! 
-
-The documentation here, much like the source code, is a fork of Lazy Vim. And like the source code, I've discarded large sections in the documentation that aren't relevant for writers. 
-
-This is a good opportunity though to thank the good folk there who have done an incredible job making this NeoVim distribution frictionless for us non-tech folk.  
 
 ## 🔌 PLUGINS 
 
