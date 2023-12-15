@@ -112,7 +112,7 @@ More good news: Vim is almost 40 years old. The community has been around for de
 
 Once again, thinking of OVIWrite as akin to a musical instrument might be the best way to overcome its apparent complexity; instead of music, OVIWrite is purpose-built for efficient (and damn near magical) textual recall, creation and manipulation. 
 
-###TL;DR
+### TL;DR
 
 Being tech savvy won't hurt but **it is not** a requirement. Being patient is. Heavy Googling is (as any programmer will tell you). 
 
