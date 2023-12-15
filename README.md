@@ -316,12 +316,13 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 ### 🚗 ROADMAP
 
 	    - [ ] Public demo on YouTube
-	    - [ ] LSP 
-	    - [ ] Autocomplete
+	    - [X] LSP 
+	    - [X] Autocomplete
 	    - [ ] Testing out on non Unix systems i.e. Windows
 	    - [ ] Documentation
-		    - [ ] Website on GitHub maybe?
+		    - [X] Website on GitHub maybe?
 			    - [ ] Blog: The case for writing in plain text
+	    - [ ] In-depth Help Documentation
 	    - [ ] Installation streamlining
 	    - [ ] Features planned for version 0.5
 		  - [ ] Snippets
