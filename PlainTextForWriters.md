@@ -51,3 +51,6 @@ Selecting a text editor that aligns with your preferences and workflow is crucia
 
 ## Conclusion:
 Embracing plain text as a writing medium unlocks a world of possibilities for writers. The power of plain text lies in its searchability, portability, and seamless integration with version control systems. By understanding the distinctions between text editors and word processors, writers can choose tools that align with their creative process. Exploring popular plain text syntaxes, such as Markdown, LaTeX, and Org mode, opens up new avenues for structured and flexible writing. With careful migration and establishment of a plain text writing environment, writers can harness the true potential of plain text and embark on a more efficient, portable, and future-proof writing journey.
+
+
+[Back to Home](https://miragiancycle.github.io/OVIWrite/)
