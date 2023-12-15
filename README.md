@@ -114,7 +114,11 @@ Once again, thinking of OVIWrite as akin to a musical instrument might be the be
 
 #### TL;DR
 
-Being tech savvy won't hurt but **it is not** a requirement. Being patient is. Heavy Googling is (as any programmer will tell you). 
+Being tech-savvy will make this easier but **it is not** a requirement. 
+
+Being patient is. 
+
+Heavy Googling is (as any programmer will tell you). 
 
 ### Rewarding Long-Term Benefits:
 
