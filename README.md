@@ -260,9 +260,10 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 
 1. Install brew from [here](https://brew.sh/) using the following command: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
-2. Run the following commands: 
+2. Run the following commands
 
-'''brew update brew doctor brew upgrade
+```
+brew update brew doctor brew upgrade
 brew install node
 brew install python
 brew install fzf
@@ -275,6 +276,8 @@ sudo pip3 install neovim-remote
 pip3 install --user pynvim
 brew install --cask mactex```
 
+
+```
 
 3. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
 
