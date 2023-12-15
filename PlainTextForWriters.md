@@ -7,7 +7,7 @@ In the digital age, where the medium in which we write profoundly impacts our cr
 ## I. Understanding Plain Text:
 In a world filled with formatting options and multimedia elements, plain text stands out as a minimalist writing medium. It is unformatted, ASCII-based text that prioritizes content and structure over styling. In contrast to rich text, which includes fonts, colors, and layout elements, plain text remains focused on the core essence of the written word.
 
-## 3 II. The Power of Plain Text:
+## II. The Power of Plain Text:
 
 A. Searchability and Accessibility:
 Plain text offers remarkable searchability, allowing writers to effortlessly locate information within their documents. Its simplicity enables seamless integration with search tools and software, making it easier to find specific passages or keywords. Moreover, plain text boasts universal compatibility across platforms and devices, ensuring accessibility and ease of sharing.

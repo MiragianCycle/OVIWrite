@@ -335,7 +335,7 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 		    - [0] Windows: 
 	    - [ ] Documentation
 		    - [X] Website on GitHub maybe?
-			    - [ ] Blog: The case for writing in plain text
+			    - [ ] Blog: [The Case For Plain Text](The case for writing in plain text)
 	    - [ ] In-depth Help Documentation
 	    - [ ] Installation streamlining
 	    - [ ] Features planned for version 0.5
