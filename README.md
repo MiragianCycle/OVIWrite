@@ -11,7 +11,7 @@
 
 
 
-- 🔥 Transform your Neovim into a full-fledged IWE: Write, Edit and World-build at the speed of thought 
+- 🔥 Transform your Neovim into a full-fledged Integrated Writing Environment (IWE): Write, Edit and World-build at the speed of thought 
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
 - 🧹 Sane default settings and options for writers
