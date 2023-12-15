@@ -262,7 +262,7 @@ Editing, too, has become a joy because editing is Vim's superpower. Combined wit
 
 2. Run the following commands: 
 
-```brew update
+'''brew update
 brew doctor
 brew upgrade
 brew install node
