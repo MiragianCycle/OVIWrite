@@ -84,7 +84,9 @@ You will notice that Vim and NeoVim are used interchangeably here. This might ap
 
 I hear you: Who is this for? 
 
-Personally, I think of Vim/NeoVim as analogous to a musical instrument, say a piano. The first interaction with a piano is often messy, confusing and overwhelming; stick with it, and there is a little bit of magic waiting to be experienced.
+Personally, I think of Vim/NeoVim as analogous to a musical instrument, say a piano. Are pianos meant only for world-class pianists? No.
+
+The first interaction with a piano is often messy, confusing and overwhelming; stick with it, and there is a little bit of magic waiting to be experienced.
 
 This mindset has helped immensely in scaling the steep learning curve that comes with Vim's modal editing philosophy.
 
