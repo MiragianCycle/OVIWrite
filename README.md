@@ -284,7 +284,7 @@ pip3 install --user pynvim
 brew install --cask mactex
 ```
 
-3. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
+4. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
 
 ### Windows
 
