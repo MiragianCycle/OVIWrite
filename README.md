@@ -290,12 +290,15 @@ I am unsure of package managers for Windows and how they work. Testing will be d
 
 ### Unix Systems (Linux and MacOS)
 
-```bash
+```
+bash
 # Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
 
 # Move the 'nvim' folder to the NeoVim configuration directory
-mv OVIWrite/nvim ~/.config/nvim```
+mv OVIWrite/nvim ~/.config/nvim
+
+```
 
 ### Windows
 
