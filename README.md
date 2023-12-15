@@ -9,6 +9,8 @@
 
 
 
+
+
 - 🔥 Transform your Neovim into a full-fledged IWE: Write, Edit and World-build at the speed of thought 
 - 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
 - 🚀 Stupid fast
@@ -18,7 +20,11 @@
 
 
 
+
+
 ## 🔎 OVI-WHAT-NOW? 
+
+ 
 
 OVIWrite is a [NeoVim](https://neovim.io/) powered Integrated Writing Environment (IWE) built using [LazyVim](https://lazyvim.github.io/) and [💤 lazy.nvim](https://github.com/folke/lazy.nvim). 
 
@@ -326,7 +332,6 @@ move OVIWrite\nvim %APPDATA%\Local\nvim
 	    - [ ] Installation streamlining
 	    - [ ] Features planned for version 0.5
 		  - [ ] Snippets
-		  - [ ] Thesaurus 
 		  - [ ] BibTex and Zotero integrations
 
 
