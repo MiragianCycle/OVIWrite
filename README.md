@@ -289,8 +289,7 @@ I am unsure of package managers for Windows and how they work. Testing will be d
 
 ### Unix Systems (Linux and MacOS)
 
-```
-bash
+```bash
 # Clone the repository
 git clone https://github.com/MiragianCycle/OVIWrite.git
 
@@ -304,8 +303,7 @@ mv OVIWrite/nvim ~/.config/nvim```
 git clone https://github.com/MiragianCycle/OVIWrite.git
 
 :: Move the 'nvim' folder to the NeoVim configuration directory (example: %APPDATA%\Local\nvim)
-move OVIWrite\nvim %APPDATA%\Local\nvim
-```
+move OVIWrite\nvim %APPDATA%\Local\nvim```
 
 
 ### 🚗 ROADMAP
