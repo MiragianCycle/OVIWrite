@@ -18,22 +18,6 @@
 - 😻 Eye candy in the form of beautiful color schemes, in dark and light modes, including flavours of Catppuccin, Gruvbox, Nord, NightFox
 - 📦 Comes with a wealth of plugins for longform writing, interconnected note-taking (wikis, etc.), and screenwriting. All pre-configured and ready to use
 
-### Nomenclature 
-
-You will notice that Vim and NeoVim are used interchangeably here. This might appear confusing at first so let's be clear: 
-
-- Vim is a text editor whose roots go back to the early 80s. Its creator was the late [Bram Moolenaar
-](https://en.wikipedia.org/wiki/Bram_Moolenaar). Among its many innovations that have aged well in its four decades is the notion of [Modal Editing](https://phoenixnap.com/glossary/modal-editor#:~:text=A%20modal%20editor%20is%20a,to%20perform%20different%20tasks%20efficiently.). Modal editing text editors like Vim change your keyboard functionality based on what mode you are in. 
-- Vim allows for a number of modes: Normal, Insert, Visual, Command and Replace modes.  
-- NeoVim is a 'fork' of Vim, a modern interpretation of what Vim can be. It's about a decade old and is maintained by a core group of maintainers, led by [Justin M. Keyes](https://neovimconf.live/speakers/justin/). It inherits Vim's modal-editing philosophy, but has moved to a modern programming language: [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- Both Vim and NeoVim have rich eco-systems that extend the editor's functionality to suit the exact needs of the user. 
-- These eco-systems are thriving as a result of tireless plugin makers, some of whom have created, and continue to maintain, dozens of plugins
-- Most plugins are created for explicit software engineering/programming tasks. A few plugins are created for writing of prose or other text manipulation tasks outside of conventional programming
-- OVIWrite is based on NeoVim; specifically it is based on an existing NeoVim starter kit [LazyVim](https://www.lazyvim.org/)
-- OVIWrite uses a curated list of writing-centric plugins along with some plugins that are traditionally for software engineering tasks, but whose functionality has application in the work of writers or anyone working with large chunks of text
-
-
-
 
 
 ## 🔎 OVI-WHAT-NOW? 
@@ -80,6 +64,21 @@ Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 
 This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim. 
 
 This is version 0.4 (Dec 11th 2023)
+
+### Nomenclature 
+
+You will notice that Vim and NeoVim are used interchangeably here. This might appear confusing at first so let's be clear: 
+
+- Vim is a text editor whose roots go back to the early 80s. Its creator was the late [Bram Moolenaar
+](https://en.wikipedia.org/wiki/Bram_Moolenaar). Among its many innovations that have aged well in its four decades is the notion of [Modal Editing](https://phoenixnap.com/glossary/modal-editor#:~:text=A%20modal%20editor%20is%20a,to%20perform%20different%20tasks%20efficiently.). Modal editing text editors like Vim change your keyboard functionality based on what mode you are in. 
+- Vim allows for a number of modes: Normal, Insert, Visual, Command and Replace modes.  
+- NeoVim is a 'fork' of Vim, a modern interpretation of what Vim can be. It's about a decade old and is maintained by a core group of maintainers, led by [Justin M. Keyes](https://neovimconf.live/speakers/justin/). It inherits Vim's modal-editing philosophy, but has moved to a modern programming language: [Lua](https://en.wikipedia.org/wiki/Lua_(programming_language))
+- Both Vim and NeoVim have rich eco-systems that extend the editor's functionality to suit the exact needs of the user. 
+- These eco-systems are thriving as a result of tireless plugin makers, some of whom have created, and continue to maintain, dozens of plugins
+- Most plugins are created for explicit software engineering/programming tasks. A few plugins are created for writing of prose or other text manipulation tasks outside of conventional programming
+- OVIWrite is based on NeoVim; specifically it is based on an existing NeoVim starter kit [LazyVim](https://www.lazyvim.org/)
+- OVIWrite uses a curated list of writing-centric plugins along with some plugins that are traditionally for software engineering tasks, but whose functionality has application in the work of writers or anyone working with large chunks of text
+
 
 ## 👨💻 AUDIENCE 
 
