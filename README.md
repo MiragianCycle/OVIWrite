@@ -223,7 +223,7 @@ But unlike me, writers like you don't have to invest the additional time in lear
 
 Once you overcome that hurdle, install OVIWrite and get writing! 
 
-### I am a writer, not a tech person. I don't know programming or how to read code. This looks overwhelming. Is this for me?
+### I am not a tech person. I don't know programming or how to read code. This looks overwhelming. Is this for me?
 
 Only you can answer that. I don't consider myself to be a tech person - tech savvy, yes but I can barely read code myself. 
 
@@ -252,6 +252,10 @@ I have steadily become very productive in the three years since my first encount
 The procrastination associated with writing has disappeared, and I believe part of that is because I don't have to struggle through the bloated mess that is MSWord. 
 
 Editing, too, has become a joy because editing is Vim's superpower. Combined with the curated plugins included in OVIWrite, you should be writing, editing and world-building at the speed of thought!
+
+### The Promise of Plain Text
+
+Most writers writing on word processors use Rich Text. Rich Text, for all its benefits, does come back with significant drawbacks: vendor lock-in being a primary concern. Rich Text also doesn't age well. Rich text's older, less glamorous kin, Plain Text ages better, doesn't lock you into a vendor, and gives you the freedom to choose the tools that are suited for your work. For more, read [The Case for Plain Text](https://github.com/MiragianCycle/OVIWrite/blob/main/PlainTextForWriters.md)
 
 # INSTALLATION
 
