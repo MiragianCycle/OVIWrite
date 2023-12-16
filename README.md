@@ -264,7 +264,7 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## Installing OVIWrite
 
-Detailed Installation instructions can be found on our [wiki](https://github.com/MiragianCycle/OVIWrite/wiki)
+Detailed Installation instructions can be found on our [wiki](https://github.com/MiragianCycle/OVIWrite/wiki/installation.md)
 
 You can [download](https://github.com/MiragianCycle/OVIWrite/archive/refs/tags/0.4.zip) the zip file containing all the source code. Copy it into the appropriate folder. 
 
