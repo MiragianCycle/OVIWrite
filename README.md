@@ -261,6 +261,9 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## First Steps (Linux, Mac and Windows)
 
+Detailed Installation instructions can be found on our [wiki](https://github.com/MiragianCycle/OVIWrite/wiki)
+
+
 ### Linux and MacOS
 
 1. Launch a terminal emulator. Terminal emulators come pre-installed on Mac and Linux machines. If you want third-party emulators, I highly recommend [iTerm](https://iterm2.com/) for MacOS 
