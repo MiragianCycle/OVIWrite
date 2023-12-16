@@ -259,47 +259,14 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 - [Pandoc](https://pandoc.org/)
 
 
-## First Steps (Linux, Mac and Windows)
 
-Detailed Installation instructions can be found on our [wiki](https://github.com/MiragianCycle/OVIWrite/wiki)
-
-
-### Linux and MacOS
-
-1. Launch a terminal emulator. Terminal emulators come pre-installed on Mac and Linux machines. If you want third-party emulators, I highly recommend [iTerm](https://iterm2.com/) for MacOS 
- 
-2. Install brew from [here](https://brew.sh/) using the following command: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
- 
-3. Run the following commands
-
-```
-brew update brew doctor 
-brew upgrade
-brew install node
-brew install python
-brew install nvim
-brew install git
-brew install fzf
-brew install ripgrep
-brew install pandoc
-brew install pandoc-plot
-brew install npm
-brew install wget
-sudo pip3 install neovim-remote
-pip3 install --user pynvim
-brew install --cask mactex
-```
-
-4. Reboot your machine. Open NeoVim and type ':' to go into command mode. Type 'checkhealth'
-
-### Windows
-
-I am unsure of package managers for Windows and how they work. Testing will be done soon and documentation will be expanded after that. 
 
 
 ## Installing OVIWrite
 
-You can [download](https://github.com/MiragianCycle/OVIWrite/archive/refs/tags/0.4.zip) the zip file containing all the source code. Copy it into the appropriate folder. Detailed installation instructions below:
+You can [download](https://github.com/MiragianCycle/OVIWrite/archive/refs/tags/0.4.zip) the zip file containing all the source code. Copy it into the appropriate folder. 
+
+Detailed Installation instructions can be found on our [wiki](https://github.com/MiragianCycle/OVIWrite/wiki)
 
 
 ### Unix Systems (Linux and MacOS)
