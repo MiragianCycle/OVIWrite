@@ -271,26 +271,21 @@ You can [download](https://github.com/MiragianCycle/OVIWrite/archive/refs/tags/0
 
 ### Unix Systems (Linux and MacOS)
 
-```
-bash
-# Clone the repository
-git clone https://github.com/MiragianCycle/OVIWrite.git
-
-# Move the 'nvim' folder to the NeoVim configuration directory
-mv OVIWrite/nvim ~/.config/nvim
-
+```bash
+git clone https://github.com/MiragianCycle/OVIWrite.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ### Windows
 
+**Command Prompt**
+```cmd
+git clone https://github.com/MiragianCycle/OVIWrite.git %userprofile%\AppData\Local\nvim\
+
 ```
-cmd
-:: Clone the repository
-git clone https://github.com/MiragianCycle/OVIWrite.git
 
-:: Move the 'nvim' folder to the NeoVim configuration directory (example: %APPDATA%\Local\nvim)
-move OVIWrite\nvim %APPDATA%\Local\nvim
-
+**Powershell**
+```pwsh
+git clone https://github.com/MiragianCycle/OVIWrite.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 # USAGE 
  
