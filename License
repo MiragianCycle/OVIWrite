@@ -1,0 +1,33 @@
+OVIWrite License
+
+Copyright (c) 2024 Theena Kumaragurunathan
+
+OVIWrite is free software: you can use, modify, and share it under the terms of the GNU General Public License version 3.0 (GPL v3.0).
+
+1. You are free to:
+   - Use this software for any purpose
+   - Change the software to suit your needs
+   - Share the original or modified software with others
+
+2. If you share OVIWrite (original or modified), you must:
+   - Make the source code available
+   - License your modifications under GPL v3.0
+   - Keep intact all notices of the GPL v3.0 and this License file
+
+3. This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+4. OVIWrite includes software from various sources, each with its own license:
+   - Neovim: Apache License 2.0
+   - Vim plugins: Various licenses, including GPL, MIT, and others
+   - [List any other major components and their licenses]
+
+   While OVIWrite as a whole is licensed under GPL v3.0, these components retain their original licenses. Users and contributors should respect the terms of these licenses.
+
+5. By using, modifying, or distributing OVIWrite, you agree to the terms of the GPL v3.0. The full text of this license can be found at: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Disclaimer:
+OVIWrite is a distribution of software from various sources. While efforts have been made to ensure compliance with all relevant licenses, users should verify compliance for their specific use case. The maintainers of OVIWrite are not liable for any issues arising from the use, modification, or distribution of this software.
+
+For any questions about licensing, please contact Theena Kumaragurunathan.
+
+Thank you for using and contributing to open-source software!
