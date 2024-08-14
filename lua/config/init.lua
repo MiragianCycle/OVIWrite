@@ -15,6 +15,11 @@ require('config.globals')
 require('config.keymaps')
 require('config.options')
 
+-- This is for an experimental plugin
+--
+
+
+
 
 
 local opts = {

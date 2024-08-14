@@ -1,2 +1,31 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Neovim
+lazy-lock.json
+
+# Spell check files
+spell/en.utf-8.add
+spell/en.utf-8.add.spl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
 .DS_Store
-node_modules
+Thumbs.db
+
+# Personal configuration files
+config/personal_settings.lua
+
+# Compiled Lua files
+*.luac
+
+# Test files
+test.tex
+
+# Output files
+output.txt
+treeOutput.txt
