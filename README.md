@@ -1,3 +1,30 @@
+
+# **2025 Update: Project Pause And Call for Maintainers**
+
+Looking at the PRs and Issues for this repo, you will see that I have not been as involved or attentive as as I should be. 
+
+There are many reasons for this: work primarily (as in actual writing work, not procrastinating  with apparent technical debt over a software project), and because  I've moved to Emacs. 
+
+Setting up Emacs for the same scope of work as OVIWrite was considerably easier than it was on Neovim: the eco-system for writing/prose work/note-taking/personal knowledge management already exists in Emacs land, is mature, well-maintained, and honestly a joy to use. 
+
+The result: I find myself writing more and barely tinkering config files as I did with OVIWrite. 
+
+That is why I am seeking to pass this project on to someone who is interested in taking over maintenance. Please reach out if you are interested, and I will be happy to pass the reigns on to you. 
+
+A deep note of gratitude to the Neovim community for making me feel welcome, aiding me when I ran into inevitable technical issues that were way over my head. 
+
+A big thank you also to the OVIWrite's many users. When I undertook this silly project to create an IWE out of a programmer's tool, I was pretty sure that no other writer would ever have any use for it. 
+
+I was proven wrong. 
+
+Many of you have emailed---and continue to email---with kind words and technical queries. The 20 year old me who dropped out of his undergrad computer science degree because *he didn't understand how to code* would be very surprised and confused at this turn of events. 
+
+Finally, happy writing! Go create amazing stories, characters and worlds for the rest of us to wander in. 
+
+## Contact 
+My regular email address is easy enough to find online. Get in touch if you want to take over OVIWrite. Or if you want to say hello. 
+
+
 # **A Writer's NeoVim**
  
 ![Loading Screen](assets/LoadingScreen.png)
