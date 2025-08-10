@@ -1,0 +1,71 @@
+❯ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+❯ git add .
+❯ git commit -m "Updated ReadME"
+[main 067dbc8] Updated ReadME
+ 1 file changed, 27 insertions(+)
+❯ git push
+To github.com:MiragianCycle/OVIWrite.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:MiragianCycle/OVIWrite.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+❯ git pull
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 24 (delta 9), reused 18 (delta 6), pack-reused 0 (from 0)
+Unpacking objects: 100% (24/24), 4.72 KiB | 230.00 KiB/s, done.
+From github.com:MiragianCycle/OVIWrite
+  1 
+2   Merge branch 'main' of github.com:MiragianCycle/OVIWrite
+  1 # Please enter a commit message to explain why this merge is necessary,
+  2 # especially if it merges an updated upstream into a topic branch.
+  3 #
+  1 
+2   Merge branch 'main' of github.com:MiragianCycle/OVIWrite
+  1 # Please enter a commit message to explain why this merge is necessary,
+  2 # especially if it merges an updated upstream into a topic branch.
+  3 #
+  4 # Lines starting with '#' will be ignored, and an empty message aborts
+  5 # the commit.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+ NORMAL ⮁ SPELL ⮀⮀ .git/MERGE_MSG[+]   ⮂ git… ⮂ utf-8[unix] ⮂ 28% ㏑:2/7☰℅ :1 ⮂⮂
+
