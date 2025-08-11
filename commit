@@ -29,10 +29,6 @@ remote: Total 24 (delta 9), reused 18 (delta 6), pack-reused 0 (from 0)
 Unpacking objects: 100% (24/24), 4.72 KiB | 230.00 KiB/s, done.
 From github.com:MiragianCycle/OVIWrite
   1 
-2   Merge branch 'main' of github.com:MiragianCycle/OVIWrite
-  1 # Please enter a commit message to explain why this merge is necessary,
-  2 # especially if it merges an updated upstream into a topic branch.
-  3 #
   1 
 2   Merge branch 'main' of github.com:MiragianCycle/OVIWrite
   1 # Please enter a commit message to explain why this merge is necessary,
@@ -40,32 +36,36 @@ From github.com:MiragianCycle/OVIWrite
   3 #
   4 # Lines starting with '#' will be ignored, and an empty message aborts
   5 # the commit.
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
- NORMAL ⮁ SPELL ⮀⮀ .git/MERGE_MSG[+]   ⮂ git… ⮂ utf-8[unix] ⮂ 28% ㏑:2/7☰℅ :1 ⮂⮂
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+~                                                                                                      
+ NORMAL ⮁ SPELL [EN] ⮀⮀ .git/MERGE_MSG[+]                ⮂ gitcommit ⮂ utf-8[unix] ⮂ 28% ㏑:2/7☰℅ :1 ⮂⮂
 

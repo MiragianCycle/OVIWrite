@@ -1,23 +1,27 @@
 
 # **2025 Update: Project Pause And Call for Maintainers**
 
-Looking at the PRs and Issues for this repo, you will see that I have not been as involved or attentive as as I should be. 
+It's been apparent for a while that I haven't been as involved or as attentive of OVIWrite as I should be. You needn't look beyond my belated responses to PRs and issues to confirm this. 
 
-There are many reasons for this: work primarily (as in actual writing work, not procrastinating  with apparent technical debt over a software project), and because  I've moved to Emacs. 
+There are many reasons for this: work primarily (as in actual writing work, not fighting apparent technical debt over a software project), and because  I've moved to Emacs. 
 
-Setting up Emacs for the same scope of work as OVIWrite was considerably easier than it was on Neovim: the eco-system for writing/prose work/note-taking/personal knowledge management already exists in Emacs land, is mature, well-maintained, and honestly a joy to use. 
+Setting up Emacs for the same scope of work as OVIWrite was considerably easier than it was on Neovim: the eco-system for writing/prose work/note-taking/personal knowledge management already exists in Emacs land, is mature, well-maintained, and honestly a joy to use. Creating an IWE out of Emacs was barely a couple of days work around Nov 2024; almost a year later, I find myself writing more and barely tinkering config files as I did with OVIWrite. This is despite the fact that I've grown to love Emacs-Lisp. 
 
-The result: I find myself writing more and barely tinkering config files as I did with OVIWrite. 
+My point is that is I am seeking to pass this project on to someone who is interested in taking over maintenance. Please reach out if you are interested, and I'll be happy to pass the reigns over to you. 
 
-That is why I am seeking to pass this project on to someone who is interested in taking over maintenance. Please reach out if you are interested, and I will be happy to pass the reigns on to you. 
+Is there an ideal person(s) who would be best suited for leading a project like this? 
 
-A deep note of gratitude to the Neovim community for making me feel welcome, aiding me when I ran into inevitable technical issues that were way over my head. 
+Obviously, I---and our small group of users---would want a writer or writer(s) to helm these efforts, if only because such a person(s) would understand and empathize with our core audience and their need to have a writing tool that goes beyond the capabilities of conventional word processors. 
 
-A big thank you also to the OVIWrite's many users. When I undertook this silly project to create an IWE out of a programmer's tool, I was pretty sure that no other writer would ever have any use for it. 
+Such a person should also not be overawed by a code base---while this OVIWrite config is relatively small and simple in scope, to call it a *code base* would be a stretch, it still requires writers who aren't afraid to get their hands dirty with lua code. In short, the role of OVIWrite's maintainer is someone who falls in the intersection between writing and hacking (I use the term 'hacking' in its broader, positive connotation: i.e. someone skilled enough in the use of computer technology to be able to create tools for their individual use.)
 
-I was proven wrong. 
+A deep note of gratitude to the Neovim community for making me feel welcome, and for always helping me when I ran into inevitable technical issues that were way over my head. 
 
-Many of you have emailed---and continue to email---with kind words and technical queries. The 20 year old me who dropped out of his undergrad computer science degree because *he didn't understand how to code* would be very surprised and confused at this turn of events. 
+A big thank you also to the OVIWrite's many users (all dozen or so of you). When I undertook this silly project to create an IWE out of a programmer's tool, I was pretty sure that no other writer would ever have any use for it. 
+
+How wrong I was. 
+
+Many of you have emailed---and continue to email---with kind words, general observations, and technical queries. The 20 year old me who dropped out of his undergrad computer science degree because *he didn't understand how to code* would be very surprised and confused at this turn of events. 
 
 Finally, happy writing! Go create amazing stories, characters and worlds for the rest of us to wander in. 
 
