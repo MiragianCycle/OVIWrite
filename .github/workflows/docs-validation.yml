@@ -23,8 +23,9 @@ jobs:
 
       - name: Lint Markdown
         run: |
-          markdownlint '*.md' || true
-          echo "Note: Some markdown issues above are informational only"
+          echo "Linting markdown files..."
+          markdownlint '*.md'
+          echo "✓ All markdown files passed linting"
 
   links:
     name: Link Validation

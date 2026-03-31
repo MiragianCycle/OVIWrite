@@ -8,8 +8,8 @@ return {
   enabled = false,  -- Set to true to enable Codeium
   event = "InsertEnter",
   config = function()
-    if vim.g.codeium_enabled ~= false then
-      -- Configure keybindings for Codeium (only if enabled)
+    -- Only set keymaps if Codeium is available
+    if vim.fn.exists("*codeium#Accept") == 1 then
       vim.keymap.set("i", "<C-g>", function()
         return vim.fn["codeium#Accept"]()
       end, { expr = true, noremap = true })

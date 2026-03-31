@@ -60,7 +60,10 @@ header() {
 # Start Verification
 ##############################################################################
 
-clear
+# Clear screen only in interactive terminals
+if [ -t 1 ]; then
+  clear || true
+fi
 
 header "OVIWrite Installation Verification (March 2026)"
 info "Checking your OVIWrite installation..."
