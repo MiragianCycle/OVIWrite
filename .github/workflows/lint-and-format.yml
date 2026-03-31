@@ -23,12 +23,12 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install Lua
-        uses: hishamhm/gh-actions-lua@master
+        uses: hishamhm/gh-actions-lua@v10
         with:
           luaVersion: 5.1
 
       - name: Install Luarocks
-        uses: hishamhm/gh-actions-luarocks@master
+        uses: hishamhm/gh-actions-luarocks@v4
 
       - name: Install Luacheck
         run: luarocks install luacheck
@@ -82,10 +82,20 @@ jobs:
       - name: Check for deprecated APIs
         run: |
           echo "Checking for deprecated vim.loop usage..."
-          grep -r "vim\.loop" lua/ && echo "❌ Found vim.loop usage (use vim.uv instead)" && exit 1 || echo "✓ No vim.loop found"
+          if grep -r "vim\.loop" lua/ > /dev/null 2>&1; then
+            echo "❌ Found vim.loop usage (use vim.uv instead)"
+            exit 1
+          else
+            echo "✓ No vim.loop found"
+          fi
 
           echo "Checking for deprecated requires pattern..."
-          grep -r "requires =" lua/ && echo "❌ Found 'requires =' (use 'dependencies' instead)" && exit 1 || echo "✓ No deprecated 'requires =' found"
+          if grep -r "requires =" lua/ > /dev/null 2>&1; then
+            echo "❌ Found 'requires =' (use 'dependencies' instead)"
+            exit 1
+          else
+            echo "✓ No deprecated 'requires =' found"
+          fi
 
       - name: Check plugin count
         run: |

@@ -8,7 +8,8 @@ return {
   config = function()
     require("gen").setup({
       -- Default model (can be "openai", "anthropic", "ollama", etc.)
-      model = "openai",
+      -- Recommended for writers: "anthropic" (Claude)
+      model = "anthropic",
 
       -- Display options
       display_mode = "split",  -- split, float, or replace

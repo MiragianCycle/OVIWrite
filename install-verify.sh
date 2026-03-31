@@ -15,7 +15,7 @@
 # Requirements: bash, neovim, git
 ##############################################################################
 
-set -e
+set -o pipefail
 
 # Colors for output
 RED='\033[0;31m'
@@ -32,17 +32,17 @@ WARN=0
 # Functions for output
 pass() {
   echo -e "${GREEN}✓${NC} $1"
-  ((PASS++))
+  PASS=$((PASS + 1))
 }
 
 fail() {
   echo -e "${RED}✗${NC} $1"
-  ((FAIL++))
+  FAIL=$((FAIL + 1))
 }
 
 warn() {
   echo -e "${YELLOW}⚠${NC} $1"
-  ((WARN++))
+  WARN=$((WARN + 1))
 }
 
 info() {
@@ -78,7 +78,7 @@ if ! command -v nvim &> /dev/null; then
   exit 1
 fi
 
-NVIM_VERSION=$(nvim --version | head -1 | awk '{print $2}')
+NVIM_VERSION=$(nvim --version | head -1 | awk '{print $2}' | sed 's/^v//')
 NVIM_MAJOR=$(echo "$NVIM_VERSION" | cut -d. -f1)
 NVIM_MINOR=$(echo "$NVIM_VERSION" | cut -d. -f2)
 

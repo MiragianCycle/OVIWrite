@@ -38,10 +38,17 @@ jobs:
       - name: Check Links
         run: |
           echo "Checking internal links..."
+          FAILED=0
           for file in *.md; do
             echo "Checking $file..."
-            markdown-link-check -q -c .github/link-check-config.json "$file" || true
+            if ! markdown-link-check -q -c .github/link-check-config.json "$file"; then
+              FAILED=1
+            fi
           done
+          if [ $FAILED -eq 1 ]; then
+            echo "❌ Some links are broken"
+            exit 1
+          fi
 
   files:
     name: File Validation

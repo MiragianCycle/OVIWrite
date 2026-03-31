@@ -99,7 +99,7 @@
 **Added AI Integration:**
 - Modernized `gen.lua` with Claude, ChatGPT, Ollama support
 - Added `codeium.lua` optional plugin (free code completion)
-- Created comprehensive `AI_INTEGRATION.md` (1200+ lines)
+- Created comprehensive `AI_INTEGRATION.md` (487 lines)
 
 **AI_INTEGRATION.md Covers:**
 
