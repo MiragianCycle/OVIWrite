@@ -92,9 +92,9 @@ Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) whe
 
 Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, the eagle-eyed among you will notice I used a combination of Vim and NeoVim during these talks. This was because I couldn't get some Vim-specific plugins to work with NeoVim, a problem that has since been solved. 
 
-This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim. 
+This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim.
 
-This is version 0.4 (Dec 11th 2023)
+This is version 0.5 (March 2026) - Modernized for Neovim 0.10+
 
 ### Nomenclature 
 
@@ -175,8 +175,9 @@ Git is a robust version control system initially designed for software developme
 - **Write, Edit, World-Build at the speed of thought**:  OVIWrite liberates your writing process by focusing on [plain text](PlainTextForWriters.md), freeing you from vendor lock-in for unparalleled flexibility.
 - **Effortless Collaboration**: Built-in version control using LazyGit ensures seamless tracking and collaborative writing experiences 
 - **Versatile Syntax Support**: From LaTeX to Markdown and from Org-mode to Fountain, enjoy comprehensive syntax support for every writing endeavor—from reports and essays to screenplays and personal wikis 
-- **Flawless Composition**: Spellcheck, thesaurus, and dictionary tools integrated for a seamless writing experience 
-- **Built-in Translator**: A built-in translator effortlessly translates between English and a diverse range of languages, breaking down language barriers with ease.
+- **AI-Powered Writing** (v0.5): Integrated with Claude, ChatGPT, and local models for brainstorming, editing, and rewriting—[see AI Integration Guide](AI_INTEGRATION.md)
+- **Flawless Composition**: Spellcheck, thesaurus, dictionary tools, and Vale grammar checker integrated for seamless writing
+- **Built-in Translator**: Translate between English and multiple languages effortlessly
 
 I use OVIWrite for the following use-cases: 
 
@@ -283,7 +284,7 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## ⚡️ REQUIREMENTS
 
-- Neovim >= **0.8.0** and its associated dependencies (needs to be built with **LuaJIT**)
+- Neovim >= **0.10.0** and its associated dependencies (needs to be built with **LuaJIT**)
 - Git >= **2.19.0** (for partial clones support)
 - a [Nerd Font](https://www.nerdfonts.com/) **_(optional but highly recommended)_**
 - LaTeX compiler

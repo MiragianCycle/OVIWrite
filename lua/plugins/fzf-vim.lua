@@ -1,4 +1,0 @@
-return {
-      { "junegunn/fzf" },
-}
-

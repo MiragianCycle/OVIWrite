@@ -1,0 +1,108 @@
+name: Lint & Format Check
+
+on:
+  push:
+    branches: [main, modernize-2026]
+    paths:
+      - "lua/**"
+      - "init.lua"
+      - ".stylua.toml"
+      - ".luacheckrc"
+      - ".github/workflows/lint-and-format.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "lua/**"
+      - "init.lua"
+
+jobs:
+  lint:
+    name: Luacheck Linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Lua
+        uses: hishamhm/gh-actions-lua@v10
+        with:
+          luaVersion: 5.1
+
+      - name: Install Luarocks
+        uses: hishamhm/gh-actions-luarocks@v4
+
+      - name: Install Luacheck
+        run: luarocks install luacheck
+
+      - name: Run Luacheck
+        run: luacheck lua/
+
+  format:
+    name: Stylua Format Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@1.75
+
+      - name: Install Stylua
+        run: cargo install stylua --locked
+
+      - name: Check Lua formatting
+        run: stylua --check lua/ init.lua
+
+  plugin-load:
+    name: Plugin Loading Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Neovim
+        uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: v0.10.0
+
+      - name: Check Neovim Version
+        run: nvim --version
+
+      - name: Verify Plugin Files Syntax
+        run: |
+          for file in lua/plugins/*.lua lua/config/*.lua; do
+            nvim --headless -c "exec 'source $file' | exec 'quit'" 2>&1 | grep -i 'error' && echo "Syntax error in $file" && exit 1
+          done
+          echo "✓ All Lua files have valid syntax"
+
+  analyze:
+    name: Code Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for deprecated APIs
+        run: |
+          echo "Checking for deprecated vim.loop usage..."
+          if grep -r "vim\.loop" lua/ > /dev/null 2>&1; then
+            echo "❌ Found vim.loop usage (use vim.uv instead)"
+            exit 1
+          else
+            echo "✓ No vim.loop found"
+          fi
+
+          echo "Checking for deprecated requires pattern..."
+          if grep -r "requires =" lua/ > /dev/null 2>&1; then
+            echo "❌ Found 'requires =' (use 'dependencies' instead)"
+            exit 1
+          else
+            echo "✓ No deprecated 'requires =' found"
+          fi
+
+      - name: Check plugin count
+        run: |
+          COUNT=$(find lua/plugins -name "*.lua" -not -path "*/lsp/*" | wc -l)
+          echo "Total plugins: $COUNT"
+          if [ "$COUNT" -gt 60 ]; then
+            echo "⚠️  Plugin count is high: $COUNT (target: 50-55)"
+          else
+            echo "✓ Plugin count is reasonable: $COUNT"
+          fi

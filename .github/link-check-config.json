@@ -1,0 +1,19 @@
+{
+  "timeout": "8s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206],
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github.com/[^/]+/[^/]+$",
+      "comment": "Allow main GitHub repo pages without files"
+    },
+    {
+      "pattern": "^mailto:",
+      "comment": "Skip email links"
+    }
+  ],
+  "replacementPatterns": [],
+  "httpHeaders": []
+}

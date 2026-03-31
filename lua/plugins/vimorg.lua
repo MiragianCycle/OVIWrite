@@ -1,3 +1,0 @@
-return {
-	{ 'jceb/vim-orgmode' },
-}

@@ -1,3 +1,0 @@
-return {
-	'HiPhish/quicklisp.nvim'
-}

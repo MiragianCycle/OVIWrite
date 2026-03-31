@@ -1,0 +1,40 @@
+-- stylua: ignore file (This is stylua's own configuration)
+-- OVIWrite Lua Code Style Configuration
+
+-- Line length before wrapping
+column_width = 100
+
+-- Use spaces instead of tabs
+indent_type = "Spaces"
+
+-- Number of spaces per indent level
+indent_width = 2
+
+-- Quote style for strings
+quote_style = "AutoPreferDouble"
+
+-- Trailing comma handling
+trailing_comma = "AsNeeded"
+
+-- Function formatting
+function_trailing_comma = false
+
+-- Collapse simple tables/functions
+collapse_simple_tables = true
+collapse_simple_functions = false
+
+-- Handle operator spacing around specific operators
+spaces_around_table_braces = true
+
+-- Comments and documentation
+-- Keep original spacing for comments
+ignore_comments = false
+
+-- Exclude directories from formatting
+exclude = { "tests", ".git" }
+
+-- Wall of stars style comments
+wall_of_stars = false
+
+-- EOF newline
+insert_final_newline = true
