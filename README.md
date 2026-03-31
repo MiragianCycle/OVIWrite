@@ -175,8 +175,9 @@ Git is a robust version control system initially designed for software developme
 - **Write, Edit, World-Build at the speed of thought**:  OVIWrite liberates your writing process by focusing on [plain text](PlainTextForWriters.md), freeing you from vendor lock-in for unparalleled flexibility.
 - **Effortless Collaboration**: Built-in version control using LazyGit ensures seamless tracking and collaborative writing experiences 
 - **Versatile Syntax Support**: From LaTeX to Markdown and from Org-mode to Fountain, enjoy comprehensive syntax support for every writing endeavor—from reports and essays to screenplays and personal wikis 
-- **Flawless Composition**: Spellcheck, thesaurus, and dictionary tools integrated for a seamless writing experience 
-- **Built-in Translator**: A built-in translator effortlessly translates between English and a diverse range of languages, breaking down language barriers with ease.
+- **AI-Powered Writing** (v0.5): Integrated with Claude, ChatGPT, and local models for brainstorming, editing, and rewriting—[see AI Integration Guide](AI_INTEGRATION.md)
+- **Flawless Composition**: Spellcheck, thesaurus, dictionary tools, and Vale grammar checker integrated for seamless writing
+- **Built-in Translator**: Translate between English and multiple languages effortlessly
 
 I use OVIWrite for the following use-cases: 
 
