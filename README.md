@@ -92,9 +92,9 @@ Here are two demos I presented at the [NeoVimConf](https://neovimconf.live/) whe
 
 Essentially, these two talks served as early demos of OVIWrite versions 0.1 and 0.2. However, the eagle-eyed among you will notice I used a combination of Vim and NeoVim during these talks. This was because I couldn't get some Vim-specific plugins to work with NeoVim, a problem that has since been solved. 
 
-This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim. 
+This version of OVIWrite is built entirely in Lua, and follows the modular structure of LazyVim.
 
-This is version 0.4 (Dec 11th 2023)
+This is version 0.5 (March 2026) - Modernized for Neovim 0.10+
 
 ### Nomenclature 
 
@@ -283,7 +283,7 @@ Note: The screenshots below show a variety of color schemes at play: Nightfox, D
 
 ## ⚡️ REQUIREMENTS
 
-- Neovim >= **0.8.0** and its associated dependencies (needs to be built with **LuaJIT**)
+- Neovim >= **0.10.0** and its associated dependencies (needs to be built with **LuaJIT**)
 - Git >= **2.19.0** (for partial clones support)
 - a [Nerd Font](https://www.nerdfonts.com/) **_(optional but highly recommended)_**
 - LaTeX compiler
