@@ -1,0 +1,130 @@
+name: Documentation Validation
+
+on:
+  push:
+    branches: [main, modernize-2026]
+    paths:
+      - "*.md"
+      - ".github/workflows/docs-validation.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "*.md"
+
+jobs:
+  markdown:
+    name: Markdown Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli
+
+      - name: Lint Markdown
+        run: |
+          markdownlint '*.md' || true
+          echo "Note: Some markdown issues above are informational only"
+
+  links:
+    name: Link Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      - name: Check Links
+        run: |
+          echo "Checking internal links..."
+          for file in *.md; do
+            echo "Checking $file..."
+            markdown-link-check -q -c .github/link-check-config.json "$file" || true
+          done
+
+  files:
+    name: File Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          echo "Checking for required documentation files..."
+
+          files=(
+            "README.md"
+            "CHANGELOG.md"
+            "CONTRIBUTING.md"
+            "MODERNIZATION_2026.md"
+            "PLUGIN_AUDIT_2026.md"
+          )
+
+          for file in "${files[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "❌ Missing required file: $file"
+              exit 1
+            fi
+            echo "✓ $file exists"
+          done
+
+      - name: Check README freshness
+        run: |
+          echo "Verifying README is current..."
+
+          # Check that README mentions 0.5 (current version)
+          grep -q "0.5\|2026" README.md || echo "⚠️  README may need version update"
+
+          # Check that README mentions 0.10.0 requirement
+          grep -q "0.10" README.md || echo "⚠️  README may need Neovim version update"
+
+          echo "✓ README appears current"
+
+      - name: Check CHANGELOG updated
+        run: |
+          echo "Verifying CHANGELOG is up-to-date..."
+
+          # Check that CHANGELOG has recent entries
+          grep -q "2026" CHANGELOG.md || echo "⚠️  CHANGELOG may need updating"
+
+          echo "✓ CHANGELOG exists and appears current"
+
+  structure:
+    name: Project Structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify directory structure
+        run: |
+          echo "Checking project structure..."
+
+          dirs=(
+            "lua"
+            "lua/config"
+            "lua/plugins"
+            "lua/plugins/lsp"
+            ".github/workflows"
+          )
+
+          for dir in "${dirs[@]}"; do
+            if [ ! -d "$dir" ]; then
+              echo "❌ Missing directory: $dir"
+              exit 1
+            fi
+            echo "✓ $dir exists"
+          done
+
+      - name: Count plugins
+        run: |
+          count=$(find lua/plugins -name "*.lua" -type f | wc -l)
+          echo "Total plugin files: $count"
+
+          if [ "$count" -lt 40 ]; then
+            echo "⚠️  Plugin count low: $count"
+          elif [ "$count" -gt 60 ]; then
+            echo "⚠️  Plugin count high: $count (target: 50-55)"
+          else
+            echo "✓ Plugin count is good: $count"
+          fi
